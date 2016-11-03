@@ -1,0 +1,2015 @@
+{
+"type":"FeatureCollection",
+"features":[
+{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2080628427794,42.5702690182037]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100135","Status":"Existing","Number":"23-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100135","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1748416164367,42.8131567691353]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100136","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100136","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1580152728499,42.6138835954158]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100137","Status":"Existing","Number":"9-2A","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100137","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1571855888535,42.6140680917342]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100138","Status":"Existing","Number":"9-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100138","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0958756605438,42.8738027053808]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100139","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100139","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1005559730056,42.8735184044989]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100140","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100140","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1760529047658,42.8134996705785]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100141","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100141","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1767434397248,42.5995607150900]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100142","Status":"Existing","Number":"2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100142","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1318446536776,42.5125593032800]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100143","Status":"Existing","Number":"12-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100143","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0958384702911,42.8847440309238]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100144","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100144","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1645239264094,42.6129872958205]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100145","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100145","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2109589214239,42.6035997232494]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100146","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100146","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1417024062795,42.5103642786623]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100147","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100147","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2357953627362,42.7054396712773]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100148","Status":"Existing","Number":"12-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100148","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2345822777765,42.5915388620616]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100149","Status":"Existing","Number":"5-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100149","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2345704200148,42.5912170407132]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100150","Status":"Existing","Number":"5-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100150","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2376811960122,42.7062744604933]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100151","Status":"Existing","Number":"9-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100151","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2334632464271,42.5916905828159]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100152","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100152","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1566337537744,42.6121891899905]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100153","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100153","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1089093170011,42.8589329815309]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100154","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100154","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2084404945249,42.6527704617228]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100155","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100155","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2346063526261,42.5929160975643]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100156","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100156","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1705511728082,42.6569122167522]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100157","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100157","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1414716290829,42.5123649497074]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100158","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100158","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1414284201178,42.5105948265167]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100159","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100159","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1002456949065,42.8741726441647]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100160","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100160","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2141587204660,42.6696054486530]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100161","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100161","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2085424533097,42.5854509525494]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100162","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100162","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2334499513609,42.5910593664978]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100163","Status":"Existing","Number":"1-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100163","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2367408395727,42.7068531823616]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100164","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100164","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1983193558818,42.5843416613406]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100165","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100165","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2378305858439,42.7076085783503]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100166","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100166","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2098623479566,42.5677710085111]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100167","Status":"Existing","Number":"9-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100167","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1659558409723,42.5894843972928]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100168","Status":"Existing","Number":"10-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100168","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1567738011272,42.6132404595649]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100169","Status":"Existing","Number":"8-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100169","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2334767211564,42.5923366771495]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100170","Status":"Existing","Number":"2-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100170","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1426016198788,42.5105947520504]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100171","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100171","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2113813991020,42.5669939967064]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100172","Status":"Existing","Number":"8-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100172","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2161338462811,42.5674144322495]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100173","Status":"Existing","Number":"4-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100173","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1867025222906,42.6197516854308]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100174","Status":"Existing","Number":"10-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100174","Date Installed":"08/06/1998","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1079905201285,42.8734068657280]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100175","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100175","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2382253055797,42.7059336627374]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100176","Status":"Existing","Number":"10-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100176","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2080785632969,42.5695747852136]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100177","Status":"Existing","Number":"23-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100177","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1382871014007,42.7834220436211]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100178","Status":"Existing","Number":"5-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100178","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1547804395118,42.7800937577908]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100179","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100179","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0897100735913,42.8671322294557]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100180","Status":"Existing","Number":"6-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100180","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2102875205806,42.5661655499711]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100181","Status":"Existing","Number":"6-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100181","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2362926700775,42.5482985215181]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100182","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100182","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1291629130599,42.8047475373715]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100183","Status":"Existing","Number":"11-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100183","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1581065416827,42.6121787746994]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100184","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100184","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1791524518222,42.6429788547334]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100185","Status":"Existing","Number":"7-1B","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100185","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2152735297335,42.5655188494243]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100186","Status":"Existing","Number":"3-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100186","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1391120243261,42.7873260534214]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100187","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100187","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1998485579899,42.6107183175510]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100188","Status":"Existing","Number":"7-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100188","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2199612982122,42.5998726898044]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100189","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100189","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1667245293610,42.5884634749479]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100190","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100190","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1396246030273,42.7853483310334]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100191","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100191","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1574572393954,42.6107050750680]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100192","Status":"Existing","Number":"5-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100192","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0889896247334,42.8667645665474]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100193","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100193","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2162810801562,42.5665864353630]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100194","Status":"Existing","Number":"4-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100194","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2288099732554,42.5845854429767]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100195","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100195","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1086005660380,42.8703145304311]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100196","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100196","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1101836670632,42.8586480466215]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100197","Status":"Existing","Number":"3-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100197","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2133090938702,42.5665277124617]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100198","Status":"Existing","Number":"19-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100198","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1933832930586,42.6125471778019]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100199","Status":"Existing","Number":"3-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100199","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0947336323231,42.8718208947763]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100200","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100200","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1702346963336,42.6575367937531]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100201","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100201","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2340392461873,42.5907078540938]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100202","Status":"Existing","Number":"5-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100202","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1653090539678,42.6121282605229]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100203","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100203","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1304139967561,42.8035876750858]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100204","Status":"Existing","Number":"10-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100204","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2133528418246,42.5655615709310]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100205","Status":"Existing","Number":"10-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100205","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0909978983826,42.8681186194860]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100206","Status":"Existing","Number":"7-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100206","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1575215587697,42.6140501628722]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100207","Status":"Existing","Number":"9-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100207","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2003533213481,42.6096656837804]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100208","Status":"Existing","Number":"8-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100208","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1987496489029,42.5855802835246]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100209","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100209","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0911464797306,42.8675831602437]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100210","Status":"Existing","Number":"8-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100210","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2402251350652,42.7216032748576]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100211","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100211","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2103242616757,42.5673232598756]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100212","Status":"Existing","Number":"9-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100212","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2385942436669,42.7064186581219]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100213","Status":"Existing","Number":"8-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100213","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1513793280146,42.7801386951781]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100214","Status":"Existing","Number":"3-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100214","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1390529151805,42.7880169254536]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100215","Status":"Existing","Number":"8-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100215","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2091562721433,42.5683357525961]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100216","Status":"Existing","Number":"22-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100216","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2103616315915,42.5670525704960]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100217","Status":"Existing","Number":"7-6","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100217","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2336568333708,42.5842703722213]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100218","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100218","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2331905179068,42.5931138007096]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100219","Status":"Existing","Number":"2-5","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100219","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1564860707417,42.6139486155260]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100220","Status":"Existing","Number":"8-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100220","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2367930316907,42.7050726324899]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100221","Status":"Existing","Number":"12-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100221","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1424153991204,42.5123289086227]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100222","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100222","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2273150867911,42.5848950805645]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100223","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100223","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1669819865214,42.5887940852075]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100224","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100224","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2071376678683,42.5856671986137]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100225","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100225","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2334364766316,42.5904131155500]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100226","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100226","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1574572393954,42.6130238978451]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100227","Status":"Existing","Number":"2-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100227","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1278804781603,42.8012744471900]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100228","Status":"Existing","Number":"4-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100228","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2257992695806,42.5842743906072]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100229","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100229","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1330039295518,42.5104960097167]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100230","Status":"Existing","Number":"11-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100230","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1445323689190,42.5101647084099]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100231","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100231","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2106393008458,42.5656290024031]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100232","Status":"Existing","Number":"5-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100232","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2342875405318,42.5916709387481]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100233","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100233","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1674214423584,42.5887739941341]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100234","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100234","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1652479685285,42.5890027345003]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100235","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100235","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1652742891663,42.5893189817530]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100236","Status":"Existing","Number":"12-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100236","Date Installed":"31/12/1996","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2104405935050,42.5659067660275]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100237","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100237","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2457660335692,42.5772864848650]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100238","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100238","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1567378685159,42.6117826952966]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100239","Status":"Existing","Number":"6-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100239","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2097180785220,42.5677251619958]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100240","Status":"Existing","Number":"9-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100240","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2345954830112,42.5922912877190]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100241","Status":"Existing","Number":"4-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100241","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1322219460970,42.5125272089024]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100242","Status":"Existing","Number":"12-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100242","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2137940942921,42.5668414218802]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100243","Status":"Existing","Number":"11-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100243","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0949568636712,42.8831214260948]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100244","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100244","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1466311927488,42.5110679842075]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100245","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100245","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2117082960339,42.5666695702639]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100246","Status":"Existing","Number":"20-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100246","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2268591019528,42.5835920069695]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100247","Status":"Existing","Number":"6-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100247","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1662874091437,42.5892729213295]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100248","Status":"Existing","Number":"9-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100248","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1572764983602,42.6114280526951]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100249","Status":"Existing","Number":"6-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100249","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1595200407823,42.8131031581979]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100250","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100250","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0968781804009,42.8860181592017]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100251","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100251","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1709335856247,42.5926713677926]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100252","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100252","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2331659938996,42.5916898387225]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100253","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100253","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1414513271575,42.7880167769114]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100254","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100254","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1583739701428,42.6117447537283]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100255","Status":"Existing","Number":"1-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100255","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2119037694397,42.6705644692144]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100256","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100256","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2107315578255,42.5653072511851]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100257","Status":"Existing","Number":"5-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100257","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2074072522851,42.5858346290209]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100258","Status":"Existing","Number":"1-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100258","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2250714545374,42.5823698074457]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100259","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100259","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1443274632027,42.5100007328694]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100260","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100260","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2058104070360,42.6511228614739]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100261","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100261","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1940184917960,42.6122959466653]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100262","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100262","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1329528154121,42.5105397214549]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100263","Status":"Existing","Number":"11-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100263","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2331253002172,42.5875595932843]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100264","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100264","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2365313524485,42.5472807754232]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100265","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100265","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1791202023035,42.6426020046500]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100266","Status":"Existing","Number":"7-1A","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100266","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1384770052518,42.5107796516637]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100267","Status":"Existing","Number":"7-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100267","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1416842603107,42.5097203653844]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100268","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100268","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1366219841901,42.5101609850807]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100269","Status":"Existing","Number":"8-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100269","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2389532104545,42.7069118273880]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100270","Status":"Existing","Number":"7-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100270","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2104197525904,42.5653322589484]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100271","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100271","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1649716467470,42.5892574438322]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100272","Status":"Existing","Number":"12-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100272","Date Installed":"31/12/1996","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1994265294694,42.5843409916101]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100273","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100273","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1410719686130,42.5123738110467]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100274","Status":"Existing","Number":"3-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100274","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2148806964598,42.5671425522774]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100275","Status":"Existing","Number":"26-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100275","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1634103747833,42.6030874713256]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100276","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100276","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2007748108794,42.6085613333016]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100277","Status":"Existing","Number":"9-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100277","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2372920458311,42.7072238570308]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100278","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100278","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2287200518954,42.5839661650854]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100279","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100279","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2280609579715,42.5881282501219]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100280","Status":"Existing","Number":"2-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100280","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1704254985000,42.6571704807936]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100281","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100281","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1108003605057,42.8592772923111]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100282","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100282","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1652421294791,42.5885348356562]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100283","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100283","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2331394037672,42.5904163896004]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100284","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100284","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2131478462767,42.6700280790383]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100285","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100285","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2003881759811,42.6102571359473]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100286","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100286","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1439382231901,42.5127276682903]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100287","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100287","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2279938538197,42.5842036223449]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100288","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100288","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1783372307018,42.8139664988756]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100289","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100289","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1098282037053,42.7930719178979]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100290","Status":"Existing","Number":"1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100290","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2073708705161,42.6300976592258]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100291","Status":"Existing","Number":"18-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100291","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1388827742656,42.7845390495105]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100292","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100292","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1682316329131,42.5883860868470]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100293","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100293","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2361719365033,42.7064902365623]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100294","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100294","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2009854658135,42.6088626426797]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100295","Status":"Existing","Number":"8-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100295","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2105840544559,42.5661520042066]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100296","Status":"Existing","Number":"6-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100296","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2129526423655,42.5667187664459]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100297","Status":"Existing","Number":"19-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100297","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2398668869299,42.7209893326815]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100298","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100298","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2198658072975,42.5990128784215]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100299","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100299","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1947099250702,42.6122653703743]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100300","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100300","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0913954028958,42.8686174884119]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100301","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100301","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1384083739641,42.5107596202672]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100302","Status":"Existing","Number":"7-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100302","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2268034962367,42.5884476252741]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100303","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100303","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2139756438111,42.5666396506383]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100304","Status":"Existing","Number":"11-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100304","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1636173466247,42.6037086462146]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100305","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100305","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1585264142465,42.6109912016057]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100306","Status":"Existing","Number":"1-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100306","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1992068913825,42.5856625849721]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100307","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100307","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1427206466540,42.5097236419277]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100308","Status":"Existing","Number":"9-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100308","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1935492118916,42.6123213897036]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100309","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100309","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2280282592951,42.5848752864079]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100310","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100310","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1385503976105,42.7832968170076]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100311","Status":"Existing","Number":"5-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100311","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1277614513852,42.8007165172286]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100312","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100312","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1110473972089,42.8569984668681]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100313","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100313","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2200346007394,42.6007672403927]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100314","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100314","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1506218685670,42.7777017984035]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100315","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100315","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2393476606957,42.7201458902542]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100316","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100316","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1319608058439,42.5115815001457]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100317","Status":"Existing","Number":"12-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100317","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2330811031052,42.5868523025484]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100318","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100318","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2069144365202,42.6519446940840]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100319","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100319","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1110045475698,42.8586052951852]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100320","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100320","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2124238041577,42.6703339719676]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100321","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100321","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0956060761271,42.8849558054569]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100322","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100322","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2088194039117,42.5686752078914]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100323","Status":"Existing","Number":"22-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100323","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2450413626295,42.5768180877409]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100324","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100324","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2001900974610,42.6106716712694]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100325","Status":"Existing","Number":"7-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100325","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0951703932143,42.8837201017071]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100326","Status":"Existing","Number":"2-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100326","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2271589595947,42.5843518561273]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100327","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100327","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1566585472763,42.6142203753483]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100328","Status":"Existing","Number":"9-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100328","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1430860813116,42.7830319540592]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100329","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100329","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0892403445292,42.8665057025890]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100330","Status":"Existing","Number":"6-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100330","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1582442534158,42.6114305821410]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100331","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100331","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2130184888758,42.5665007698776]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100332","Status":"Existing","Number":"19-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100332","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2075369690121,42.6520944690609]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100333","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100333","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1578056060626,42.6126732767114]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100334","Status":"Existing","Number":"2-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100334","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2104488580056,42.5664066940606]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100335","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100335","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2444476660582,42.5777293541526]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100336","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100336","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2161257614436,42.5662160116500]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100337","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100337","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1326631985645,42.5103638318637]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100338","Status":"Existing","Number":"11-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100338","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1095911383018,42.8586698676604]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100339","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100339","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2290167654338,42.5849502958239]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100340","Status":"Existing","Number":"4-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100340","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1007271918988,42.8732997052804]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100341","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100341","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1567139733293,42.6127046712248]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100342","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100342","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1631145595602,42.6031090477093]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100343","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100343","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2157714658955,42.5676124062770]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100344","Status":"Existing","Number":"4-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100344","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2102094569824,42.5670311356187]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100345","Status":"Existing","Number":"7-5","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100345","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1661892232831,42.5898814530624]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100346","Status":"Existing","Number":"10-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100346","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2105891748530,42.5659038633567]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100347","Status":"Existing","Number":"6-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100347","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1569702626799,42.6136069247289]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100348","Status":"Existing","Number":"8-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100348","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1410877789621,42.5121539900436]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100349","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100349","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1322138612594,42.5125795577315]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100350","Status":"Existing","Number":"12-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100350","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2283962092355,42.5885692882021]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100351","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100351","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2262202201228,42.5837496178883]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100352","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100352","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2103537264170,42.5666939822905]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100353","Status":"Existing","Number":"7-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100353","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2139673793104,42.5668602518584]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100354","Status":"Existing","Number":"11-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100354","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1408159487571,42.5104781377912]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100355","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100355","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1548289485371,42.7789918573426]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100356","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100356","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1577776684572,42.6107342382867]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100357","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100357","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2441267878388,42.5756081638824]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100358","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100358","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2090844069205,42.5682325984583]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100359","Status":"Existing","Number":"22-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100359","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2392998703226,42.7091953903131]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100360","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100360","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2220143079625,42.5850975611796]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100361","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100361","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2165776140315,42.5666146431836]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100362","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100362","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1518993627325,42.7809156261477]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100363","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100363","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2443351071532,42.5763902475031]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100364","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100364","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2249791975578,42.5819835882730]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100365","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100365","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1318250704044,42.8001469993534]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100366","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100366","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2075942815272,42.5857911715540]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100367","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100367","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2262124946113,42.5851712309875]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100368","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100368","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1493567711524,42.7795151407931]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100369","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100369","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1697655960923,42.6584681866983]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100370","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100370","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1366929510975,42.5101838463198]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100371","Status":"Existing","Number":"8-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100371","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1682991862225,42.5887337375644]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100372","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100372","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1547322898125,42.7811964637423]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100373","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100373","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1583550156903,42.6264190166005]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100374","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100374","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2118573265396,42.5666199274974]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100375","Status":"Existing","Number":"20-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100375","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2285593432911,42.5850855805292]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100376","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100376","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1593146859084,42.8116425837828]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100377","Status":"Existing","Number":"6-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100377","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0965627819047,42.8835093635320]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100378","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100378","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1578120739326,42.6142546707485]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100379","Status":"Existing","Number":"9-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100379","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1391970947836,42.7887887478871]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100380","Status":"Existing","Number":"9-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100380","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1993601439700,42.5847440198020]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100381","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100381","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2391531754367,42.7071509411821]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100382","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100382","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0933592997699,42.8706066323301]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100383","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100383","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1587958190003,42.6110838987008]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100384","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100384","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1650575256882,42.6127730398129]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100385","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100385","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0887660340592,42.8662129955556]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100386","Status":"Existing","Number":"6-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100386","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2378682252543,42.7054474758549]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100387","Status":"Existing","Number":"10-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100387","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1367210683659,42.5099256704122]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100388","Status":"Existing","Number":"8-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100388","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2390561573860,42.7087056507623]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100389","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100389","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1780822888242,42.8139323425888]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100390","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100390","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1622940383797,42.8136956986190]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100391","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100391","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2125671752771,42.5664750181196]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100392","Status":"Existing","Number":"20-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100392","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1398504394897,42.7851285570501]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100393","Status":"Existing","Number":"6-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100393","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1411118538117,42.5111735024040]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100394","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100394","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1435385627202,42.5125035290537]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100395","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100395","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2337631040689,42.5837560919862]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100396","Status":"Existing","Number":"1-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100396","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1589476342833,42.8115067723504]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100397","Status":"Existing","Number":"6-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100397","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1603281652119,42.8140301334933]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100398","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100398","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1999497981224,42.6052032752275]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100399","Status":"Existing","Number":"61h-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100399","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2155794959193,42.5656267695735]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100400","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100400","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1356421018782,42.8042501474533]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100401","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100401","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2006553349466,42.6089207469327]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100402","Status":"Existing","Number":"8-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100402","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1988395702628,42.5843215694225]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100403","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100403","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1570087105740,42.6113326032667]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100404","Status":"Existing","Number":"6-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100404","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2267686416037,42.5844593106068]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100405","Status":"Existing","Number":"7-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100405","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2331534174856,42.5837867509271]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100406","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100406","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2330604418537,42.5855491042073]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100407","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100407","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1085456789741,42.8728102092131]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100408","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100408","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2386511070244,42.7081920498539]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100409","Status":"Existing","Number":"4-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100409","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1337366853290,42.8037203778210]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100410","Status":"Existing","Number":"8-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100410","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1660035415139,42.5891708293341]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100411","Status":"Existing","Number":"9-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100411","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1283627836364,42.8029320305201]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100412","Status":"Existing","Number":"5-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100412","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1273826318299,42.8040685824677]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100413","Status":"Existing","Number":"12-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100413","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2389823158697,42.7081506494981]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100414","Status":"Existing","Number":"6-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100414","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2105965410383,42.5663910643677]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100415","Status":"Existing","Number":"7-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100415","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1699226216039,42.6581356376006]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100416","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100416","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0910209850854,42.8662089136820]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100417","Status":"Existing","Number":"9-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100417","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2072082754497,42.5858809885935]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100418","Status":"Existing","Number":"1-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100418","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2149884942939,42.5672658026332]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100419","Status":"Existing","Number":"26-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100419","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2152548447756,42.5679249216677]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100420","Status":"Existing","Number":"26-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100420","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1385570451436,42.5105068818032]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100421","Status":"Existing","Number":"7-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100421","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2252913621190,42.5837732818304]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100422","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100422","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1572709288055,42.6109251381368]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100423","Status":"Existing","Number":"5-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100423","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2076779146802,42.5675883665934]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100424","Status":"Existing","Number":"21-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100424","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2214150418365,42.5859231065825]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100425","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100425","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1319547871315,42.5143518072689]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100426","Status":"Existing","Number":"13-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100426","Date Installed":"12/11/1999","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2274983431090,42.5881708880998]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100427","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100427","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2101940059595,42.5674531339682]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100428","Status":"Existing","Number":"9-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100428","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1623115555277,42.8127263215445]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100429","Status":"Existing","Number":"2-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100429","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1442452673542,42.5099153940002]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100430","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100430","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1983410052801,42.5852405103259]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100431","Status":"Existing","Number":"1-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100431","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1088715877592,42.8733084621631]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100432","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100432","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1655172834506,42.5901389878771]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100433","Status":"Existing","Number":"11-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100433","Date Installed":"31/12/1996","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2079142614315,42.5702713997842]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100434","Status":"Existing","Number":"23-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100434","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2140017847858,42.5656165729848]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100435","Status":"Existing","Number":"10-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100435","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0961468619281,42.8860157847414]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100436","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100436","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2106533145643,42.5666855720503]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100437","Status":"Existing","Number":"7-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100437","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1672380962089,42.5884378773515]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100438","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100438","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1581061823566,42.6116494533762]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100439","Status":"Existing","Number":"1-5","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100439","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2066162856774,42.5856718866687]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100440","Status":"Existing","Number":"3-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100440","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2078404199151,42.5855038606948]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100441","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100441","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1578376759182,42.6120849626382]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100442","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100442","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1764178902658,42.5996180804117]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100443","Status":"Existing","Number":"2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100443","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1950680833740,42.6122516817156]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100444","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100444","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2065787360986,42.5859299526145]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100445","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100445","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2331965366193,42.5888731844707]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100446","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100446","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0973935438794,42.8744114525008]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100447","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100447","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1858764315553,42.5991386958401]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100448","Status":"Existing","Number":"5","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100448","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1084283589980,42.8715876464546]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100449","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100449","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1418111024288,42.5109313391042]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100450","Status":"Existing","Number":"6-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100450","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2111751459128,42.5669916150523]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100451","Status":"Existing","Number":"8-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100451","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2263764371507,42.5849432264863]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100452","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100452","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2448058243620,42.5769538293513]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100453","Status":"Existing","Number":"2-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100453","Date Installed":"unset","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1650249168434,42.5898982698594]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100454","Status":"Existing","Number":"11-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100454","Date Installed":"31/12/1996","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1432180438268,42.5100372960114]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100455","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100455","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2331873738033,42.5928053032805]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100456","Status":"Existing","Number":"2-4","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100456","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2105274605929,42.6043911234178]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100457","Status":"Existing","Number":"4-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100457","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1656867955447,42.5887337375644]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100458","Status":"Existing","Number":"4-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100458","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0952098292552,42.8829655235189]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100459","Status":"Existing","Number":"4-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100459","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2105757001237,42.5653198294954]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100460","Status":"Existing","Number":"5-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100460","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1653002504780,42.5896315075219]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100461","Status":"Existing","Number":"12-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100461","Date Installed":"31/12/1996","Material":"Unknown","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.0966845934572,42.8739802910018]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100462","Status":"Existing","Number":"3-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100462","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1657233569768,42.5885121401286]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100463","Status":"Existing","Number":"4-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100463","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2210408036891,42.5855898084694]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100464","Status":"Existing","Number":"2-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100464","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1514520017210,42.7802945274899]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100465","Status":"Existing","Number":"3-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100465","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1631055764074,42.6037404153917]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100466","Status":"Existing","Number":"1-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100466","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1722393767217,42.6058350024152]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100467","Status":"Existing","Number":"1-1","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100467","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.1659319457858,42.5896396182975]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100468","Status":"Existing","Number":"10-3","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100468","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Point","coordinates":[-76.2256142166321,42.5835443813389]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"100469","Status":"Existing","Number":"4-2","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"H 100469","Date Installed":"unset","Material":"Fiberglass","Length":"unset","Remarks":"unset","Design":"unset","Width":"unset","Depth":"unset","Location Description":"unset"}
+}]
+}

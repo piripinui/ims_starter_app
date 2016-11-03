@@ -1,0 +1,95 @@
+{
+"type":"FeatureCollection",
+"features":[
+{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1988487330787,42.5829863412990],[-76.1988550212857,42.5831254236963],[-76.1986423002264,42.5831320466631],[-76.1986361018510,42.5829928898590],[-76.1988487330787,42.5829863412990]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173318","Status":"Existing","Number":"unset","Name":"Munson","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"Monitored","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"SUB 173318","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1395502225218,42.5207468502407],[-76.1395503123533,42.5207508710352],[-76.1392764160231,42.5207528069732],[-76.1392747092241,42.5205888477908],[-76.1395525581415,42.5205868373905],[-76.1395502225218,42.5207468502407]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173322","Status":"Existing","Number":"unset","Name":"Tuller Hill","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"None","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"SUB 173322","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1525212664037,42.5948466079642],[-76.1523654087020,42.5952496705811],[-76.1520612391467,42.5951689391294],[-76.1518666640562,42.5956721517729],[-76.1513236324669,42.5955281006084],[-76.1514300828281,42.5952527212614],[-76.1512711708544,42.5952106069831],[-76.1515544994950,42.5944778456215],[-76.1517335337311,42.5945253175205],[-76.1517171843929,42.5945675064788],[-76.1523000113492,42.5947221247746],[-76.1522711754286,42.5947969039945],[-76.1525212664037,42.5948466079642]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173326","Status":"Existing","Number":"unset","Name":"Cortland","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"unset","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"SUB 173326","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1027509165708,42.5931502607902],[-76.1025357700603,42.5931564366801],[-76.1025326259568,42.5930201205675],[-76.1027479521304,42.5930167721891],[-76.1027509165708,42.5931502607902]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173330","Status":"Existing","Number":"unset","Name":"McGraw","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"Control","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"SUB 173330","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1992652818760,42.5837090617489],[-76.1986488579280,42.5837284096339],[-76.1986235254370,42.5831720077008],[-76.1992310560636,42.5831529573756],[-76.1992652818760,42.5837090617489]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173334","Status":"Existing","Number":"unset","Name":"Starr","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"unset","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"SUB 173334","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1883498528586,42.6168311088009],[-76.1877883159745,42.6168598983730],[-76.1877464544823,42.6164021655658],[-76.1883180524976,42.6163748637090],[-76.1883498528586,42.6168311088009]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173338","Status":"Existing","Number":"unset","Name":"Fisher","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"Unknown","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"SUB 173338","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.0259072305367,42.7233698714894],[-76.0257467914269,42.7235181331649],[-76.0255399992485,42.7233649665883],[-76.0257041214509,42.7232132861251],[-76.0259103746402,42.7233660813386],[-76.0259072305367,42.7233698714894]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173342","Status":"Existing","Number":"unset","Name":"Labrador","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"Monitored","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"SUB 173342","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1848901712049,42.6124901914608],[-76.1847874039364,42.6124947295386],[-76.1847066453923,42.6124277742712],[-76.1847066453923,42.6123569504311],[-76.1848779541170,42.6123543466125],[-76.1848901712049,42.6124901914608]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173346","Status":"Existing","Number":"unset","Name":"Miller","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"unset","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"SUB 173346","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1501975942583,42.6270015233647],[-76.1503627944390,42.6270582787367],[-76.1502781731393,42.6272270569828],[-76.1500913235602,42.6271627888767],[-76.1501764838491,42.6269930435293],[-76.1501975942583,42.6270015233647]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173350","Status":"Existing","Number":"unset","Name":"Lorings","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"Perimeter","Operating Area":"unset","Scada Type":"Monitored","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"SUB 173350","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1110969842125,42.7908402291564],[-76.1104803806015,42.7907408570441],[-76.1106011141757,42.7902953153067],[-76.1112139448625,42.7904087990288],[-76.1110969842125,42.7908402291564]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173354","Status":"Existing","Number":"unset","Name":"Tully Center","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"Unknown","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"SUB 173354","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.0256217459394,42.7130364482620],[-76.0254018383578,42.7130393468965],[-76.0253998620642,42.7129358135695],[-76.0256197696458,42.7129329149322],[-76.0256217459394,42.7130364482620]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173358","Status":"Existing","Number":"unset","Name":"Truxton","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"unset","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"SUB 173358","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-76.1763245553077,42.6369169611186],[-76.1763233874979,42.6369300515656],[-76.1760647625276,42.6369139860168],[-76.1760812016973,42.6367325046475],[-76.1763398266676,42.6367485702239],[-76.1763245553077,42.6369169611186]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173362","Status":"Existing","Number":"unset","Name":"Homer","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"Monitored","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"SUB 173362","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[-75.9597277147349,42.7384785595271],[-75.9597277147349,42.7387066788044],[-75.9595310735192,42.7387066788044],[-75.9595310735192,42.7384785595271],[-75.9597277147349,42.7384785595271]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"173366","Status":"Existing","Number":"unset","Name":"Cuyler","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"unset","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"SUB 173366","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[65.6327307817821,-17.3705789283552],[65.6327307817821,-17.3703292681280],[65.6331936836481,-17.3703292681280],[65.6331936836481,-17.3705789283552],[65.6327307817821,-17.3705789283552]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"1143100","Status":"Existing","Number":"unset","Name":"T- Hang","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"None","Operating Area":"unset","Scada Type":"Monitored","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Company Owned","Owner Name":"unset","Asset ID":"SUB 1733182","Remarks":"unset","Design":"unset"}
+},{
+"type":"Feature",
+"geometry":{
+"type":"Polygon","coordinates":[[[65.6384846708400,-17.3681504219524],[65.6384846708400,-17.3676697585696],[65.6394516174118,-17.3676697585696],[65.6394516174118,-17.3681504219524],[65.6384846708400,-17.3681504219524]]]},
+"properties":{
+"Inspection_status":"warning","picture":"","id":"1335787","Status":"Existing","Number":"unset","Name":"T- Substation","Type":"Distribution","Class":"Transmission/Distribution","Electric Fence Type":"Unknown","Operating Area":"unset","Scada Type":"unset","Scada Control ID":"unset","Scada Monitor ID":"unset","Date Installed":"unset","Owner Type":"Unknown","Owner Name":"unset","Asset ID":"unset","Remarks":"unset","Design":"unset"}
+}]
+}
