@@ -349,8 +349,26 @@ function init() {
 	}
 	
 	var eventSource = new EventSource('/events');
+	var alarm = false;
+	
+	function panAndZoom(feature) {
+		var mapView = map.getView();
+		
+		map.on('moveend', drawAlarm);
+		
+		function drawAlarm() {
+			if (alarm) {
+				createD3PointFromFeature(feature);
+				alarm = false;
+			}
+		}
+		
+		mapView.setCenter(feature.getGeometry().getCoordinates())
+		mapView.setZoom(15);
+	}
 	
 	eventSource.addEventListener('alarm', function(e) {
+		alarm = true;
 		map.getLayers().getArray().forEach(aLayer => {
 			if (typeof aLayer.layerName != 'undefined') {
 				if (aLayer.layerName == "Pole") {
@@ -359,7 +377,7 @@ function init() {
 					
 					var alarmPole = src.forEachFeature(function(aFeature) {
 						if (aFeature.getProperties().id == poleId) {
-							createD3PointFromFeature(aFeature);
+							panAndZoom(aFeature);
 							return true;
 						}
 					});
