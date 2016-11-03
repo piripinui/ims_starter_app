@@ -12,6 +12,14 @@ The challenge for the Hackathon given this context is to create a sensor for a u
 
 This application and the data it shows is the basis of the map visualisation part of the challenge. Specifically, there are a set of poles in the dataset that this application shows - the idea is to listen to events from your sensor (which is representing that pole) and when an alarm is received (e.g. the sensor reports movement), change the style of that particular pole on the map in a prominent way.
 
+## The Intelligent and Dynamic Mapping Services
+The starter app is intended to demonstrate how to use the Intelligent and Dynamic Mapping services on Predix.io. These service provide geospatial services for storing and rendering asset locations on map, either statically or in realtime. To find out more, you can go to the [Predix.io catalog](https://www.predix.io/catalog/services/) which describes all the microservices available on Predix. The two geospatial services can be found below:
+
+Intelligent Mapping Service - [https://www.predix.io/services/service.html?id=1846](https://www.predix.io/services/service.html?id=1846)
+Dynamic Mapping Service - [https://www.predix.io/services/service.html?id=2120](https://www.predix.io/services/service.html?id=2120)
+
+The services have extensive documentation about how to use them - see [https://sw-intelligent-mapping.github.io/smallworld-mapping-services/index.htm](https://sw-intelligent-mapping.github.io/smallworld-mapping-services/index.htm).
+
 ## Installation
 Clone this repo:
 
