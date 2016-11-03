@@ -26,3 +26,20 @@ Start the app:
 `npm start`
 
 Start a browser and navigate to http://localhost:3000.
+
+## How it works
+
+The starter app uses [Openlayers 3](https://openlayers.org/) to display the map. It sets up a map using [Openstreetmap](https://www.openstreetmap.org) as the base layer and then adds the electricity distribution asset locations on top of that map as vector layers. There are 10 layers added:
+
+* Overhead Secondary Conductor
+* Underground Secondary Conductor
+* Overhead Primary Conductor
+* Underground Primary Conductor
+* Handhole
+* Pole
+* Substation
+* Overhead Transformer
+* Demand Point
+* Streetlight
+
+The application is set up so that when the user clicks on the map a popover will be raised. If the location at which the mouse click coincides with one of the assets, the popover will have a heading corresponding to the layer that asset is on (as above) or just the coordinates of the location in lat/lon degrees.
