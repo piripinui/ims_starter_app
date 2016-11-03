@@ -4,7 +4,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
@@ -152,7 +152,7 @@ function init() {
 						return styles[layerName];
 					}
 				});
-				
+
 			aLayer.layerName = layers[layerProp];
 
 			mapLayers.push(aLayer);
@@ -202,7 +202,6 @@ function init() {
 			})
 		});
 
-		
 	// Create an overlay for popups when the users clicks on the map.
 	var popup = new ol.Overlay({
 			element : document.getElementById('popup')
@@ -235,8 +234,7 @@ function init() {
 					}
 				}
 			}
-		}
-		else {
+		} else {
 			$(element).attr("title", "Location");
 		}
 
@@ -251,9 +249,9 @@ function init() {
 		});
 		$(element).popover('show');
 	});
-	
+
 	var svg;
-	
+
 	function createD3SvgCanvas() {
 		// Creates the D3 SVG canvas used to render the tweet animations.
 		var v = map.getView();
@@ -264,14 +262,14 @@ function init() {
 			.attr("width", pixel_size[0])
 			.attr("height", pixel_size[1]);
 	}
-	
+
 	if ($("#svg-div").length == 0)
 		createD3SvgCanvas();
-	
+
 	function createD3PointFromFeature(aFeature) {
 		// Generates the animation of a tweet using D3.
 		var pixel = map.getPixelFromCoordinate(aFeature.getGeometry().getCoordinates());
-		
+
 		//vector.getSource().addFeature(aFeature);
 
 		var dot = svg.append("circle")
@@ -307,11 +305,11 @@ function init() {
 			dot.remove();
 		}, 3500);
 	}
-	
+
 	function createD3HighlightedPointFromFeature(aFeature) {
 		// Generates the animation of a tweet using D3.
 		var pixel = map.getPixelFromCoordinate(aFeature.getGeometry().getCoordinates());
-		
+
 		//vector.getSource().addFeature(aFeature);
 
 		var dot = svg.append("circle")
@@ -347,41 +345,43 @@ function init() {
 			dot.remove();
 		}, 3500);
 	}
-	
+
 	var eventSource = new EventSource('/events');
 	var alarm = false;
+	var alarmFeature;
 	
-	function panAndZoom(feature) {
-		var mapView = map.getView();
-		
-		map.on('moveend', drawAlarm);
-		
-		function drawAlarm() {
-			if (alarm) {
-				createD3PointFromFeature(feature);
-				alarm = false;
-			}
+	function drawAlarm() {
+		if (alarm) {
+			createD3PointFromFeature(alarmFeature);
+			alarm = false;
 		}
-		
+	}
+	
+	map.on('moveend', drawAlarm);
+
+	function panAndZoom(feature) {
+		alarmFeature = feature;
+		var mapView = map.getView();
+
 		mapView.setCenter(feature.getGeometry().getCoordinates())
 		mapView.setZoom(15);
 	}
-	
-	eventSource.addEventListener('alarm', function(e) {
+
+	eventSource.addEventListener('alarm', function (e) {
 		alarm = true;
 		map.getLayers().getArray().forEach(aLayer => {
 			if (typeof aLayer.layerName != 'undefined') {
 				if (aLayer.layerName == "Pole") {
 					var poleId = JSON.parse(e.data).poleId;
 					var src = aLayer.getSource();
-					
-					var alarmPole = src.forEachFeature(function(aFeature) {
-						if (aFeature.getProperties().id == poleId) {
-							panAndZoom(aFeature);
-							return true;
-						}
-					});
-				
+
+					var alarmPole = src.forEachFeature(function (aFeature) {
+							if (aFeature.getProperties().id == poleId) {
+								panAndZoom(aFeature);
+								return true;
+							}
+						});
+
 				}
 			}
 		})
