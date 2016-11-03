@@ -69,3 +69,5 @@ The data for each layer is retrieved from an instance of the [Predix Intelligent
 * Streetlight - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_light
 
 Each service request returns a [GeoJSON FeatureCollection](http://geojson.org/geojson-spec.html) which is used to create the vector features for each layer and display them on the map.
+
+The GeoJSON data that was used to create the datasets in the endpoints above is available in the data directory, for reference.
