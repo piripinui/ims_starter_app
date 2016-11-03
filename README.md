@@ -29,8 +29,13 @@ Start a browser and navigate to http://localhost:3000.
 
 ## How it works
 
-The starter app uses [Openlayers 3](https://openlayers.org/) to display the map. It sets up a map using [Openstreetmap](https://www.openstreetmap.org) as the base layer and then adds the electricity distribution asset locations on top of that map as vector layers. There are 10 layers added:
+The starter app uses [Openlayers 3](https://openlayers.org/) to display the map. It sets up a map using [Openstreetmap](https://www.openstreetmap.org) as the base layer and then adds the electricity distribution asset locations on top of that map as vector layers. 
 
+The application is set up so that when the user clicks on the map a popover will be raised. If the location at which the mouse click coincides with one of the assets, the popover will have a heading corresponding to the layer that asset is on (as above) or just the coordinates of the location in lat/lon degrees.
+
+### Vector Data and Service Endpoints
+
+There are 10 layers in the dataset:
 * Overhead Secondary Conductor
 * Underground Secondary Conductor
 * Overhead Primary Conductor
@@ -55,4 +60,4 @@ The data for each layer is retrieved from an instance of the [Predix Intelligent
 * Demand Point - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_demand_point
 * Streetlight - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_light
 
-The application is set up so that when the user clicks on the map a popover will be raised. If the location at which the mouse click coincides with one of the assets, the popover will have a heading corresponding to the layer that asset is on (as above) or just the coordinates of the location in lat/lon degrees.
+
