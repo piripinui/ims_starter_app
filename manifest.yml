@@ -1,0 +1,11 @@
+---
+#
+#  A starter app for Intelligent Mapping services for the Minds and Machines Hackathon in November 2016.
+
+applications:
+  - name: ims-starter-app
+    buildpack: nodejs_buildpack
+    command: node server.js
+env:
+  node_env: cloud
+  uaa_service_label: predix-uaa
