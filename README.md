@@ -50,7 +50,7 @@ The server also sets up a [Server-Sent Events](https://developer.mozilla.org/en-
 
 ### Vector Data and Service Endpoints
 
-There are 10 layers in the dataset:
+There are 10 data layers in the dataset representing electric utility distribution assets:
 * Overhead Secondary Conductor
 * Underground Secondary Conductor
 * Overhead Primary Conductor
@@ -78,7 +78,7 @@ The data for each layer is retrieved from an instance of the [Predix Intelligent
 Each service request returns a [GeoJSON FeatureCollection](http://geojson.org/geojson-spec.html) which is used to create the vector features for each layer and display them on the map.
 
 The GeoJSON data that was used to create the datasets in the endpoints above is available in the data directory, for reference.
-## Responding to Events
+### Responding to Events
 The starter app is set up to respond to real-time events using the [Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) (SSE) technology. The idea is that the sensor device will create an event based on movement of the device (detected by accelerometer) and that event will be published in the Predix Cloud where it will be consumed by your application. Rather than polling for the event, the application will listen using SSE. When it is notified of an event it will find the relevant pole (using the pole's id property) and generate a "ripple" effect over the pole's location on the map. You can see a simulation of how this works by generating a mock event using the following URL:
 
 [https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent](https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent)
