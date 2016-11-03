@@ -42,4 +42,17 @@ The starter app uses [Openlayers 3](https://openlayers.org/) to display the map.
 * Demand Point
 * Streetlight
 
+The data for each layer is retrieved from an instance of the [Predix Intelligent Mapping service](https://www.predix.io/services/service.html?id=1846) using AJAX requests to service endpoints whose path correspond to the layers above. For example:
+
+* Overhead Secondary Conductor - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_secondary_conductor
+* Underground Secondary Conductor - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_ug_secondary_conductor
+* Overhead Primary Conductor - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_primary_conductor
+* Underground Primary Conductor - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_ug_primary_conductor
+* Handhole - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_handhole
+* Pole - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_pole
+* Substation - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/sub_substation
+* Overhead Transformer - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_transformer
+* Demand Point - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_demand_point
+* Streetlight - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_light
+
 The application is set up so that when the user clicks on the map a popover will be raised. If the location at which the mouse click coincides with one of the assets, the popover will have a heading corresponding to the layer that asset is on (as above) or just the coordinates of the location in lat/lon degrees.
