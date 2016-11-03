@@ -251,4 +251,121 @@ function init() {
 		});
 		$(element).popover('show');
 	});
+	
+	var svg;
+	
+	function createD3SvgCanvas() {
+		// Creates the D3 SVG canvas used to render the tweet animations.
+		var v = map.getView();
+		var centre = v.getCenter();
+		var pixel_size = map.getSize();
+		$(".ol-viewport").append('<div id="svg-div" class="svg"></div>');
+		svg = d3.select("#svg-div").append("svg")
+			.attr("width", pixel_size[0])
+			.attr("height", pixel_size[1]);
+	}
+	
+	if ($("#svg-div").length == 0)
+		createD3SvgCanvas();
+	
+	function createD3PointFromFeature(aFeature) {
+		// Generates the animation of a tweet using D3.
+		var pixel = map.getPixelFromCoordinate(aFeature.getGeometry().getCoordinates());
+		
+		//vector.getSource().addFeature(aFeature);
+
+		var dot = svg.append("circle")
+			.attr("class", "dot")
+			.attr("transform", "translate(" + pixel[0] + "," + pixel[1] + ")")
+			.attr("r", 8);
+
+		var ease = d3.easeLinear;
+
+		var ping = function () {
+			svg.append("circle")
+			.attr("class", "ring")
+			.attr("transform", "translate(" + pixel[0] + "," + pixel[1] + ")")
+			.attr("r", 6)
+			.style("stroke-width", 3)
+			.style("stroke", "green")
+			.transition()
+			//.easeLinear(10)
+			.duration(ease(3000))
+			.style("stroke-opacity", 1e-6)
+			.style("stroke-width", 1)
+			.style("stroke", "lt-green")
+			.attr("r", 160)
+			.remove();
+		}
+		var timeout = 0;
+		for (var i = 0; i < 5; i++) {
+			setTimeout(ping, timeout);
+			timeout += 400;
+		}
+
+		setTimeout(function () {
+			dot.remove();
+		}, 3500);
+	}
+	
+	function createD3HighlightedPointFromFeature(aFeature) {
+		// Generates the animation of a tweet using D3.
+		var pixel = map.getPixelFromCoordinate(aFeature.getGeometry().getCoordinates());
+		
+		//vector.getSource().addFeature(aFeature);
+
+		var dot = svg.append("circle")
+			.attr("class", "dot")
+			.attr("transform", "translate(" + pixel[0] + "," + pixel[1] + ")")
+			.attr("r", 8);
+
+		var ease = d3.easeLinear;
+
+		var ping = function () {
+			svg.append("circle")
+			.attr("class", "ring")
+			.attr("transform", "translate(" + pixel[0] + "," + pixel[1] + ")")
+			.attr("r", 6)
+			.style("stroke-width", 3)
+			.style("stroke", "red")
+			.transition()
+			//.easeLinear(10)
+			.duration(ease(3000))
+			.style("stroke-opacity", 1e-6)
+			.style("stroke-width", 1)
+			.style("stroke", "lt-red")
+			.attr("r", 160)
+			.remove();
+		}
+		var timeout = 0;
+		for (var i = 0; i < 5; i++) {
+			setTimeout(ping, timeout);
+			timeout += 400;
+		}
+
+		setTimeout(function () {
+			dot.remove();
+		}, 3500);
+	}
+	
+	var eventSource = new EventSource('/events');
+	
+	eventSource.addEventListener('alarm', function(e) {
+		map.getLayers().getArray().forEach(aLayer => {
+			if (typeof aLayer.layerName != 'undefined') {
+				if (aLayer.layerName == "Pole") {
+					var poleId = JSON.parse(e.data).poleId;
+					var src = aLayer.getSource();
+					
+					var alarmPole = src.forEachFeature(function(aFeature) {
+						if (aFeature.getProperties().id == poleId) {
+							createD3PointFromFeature(aFeature);
+							return true;
+						}
+					});
+				
+				}
+			}
+		})
+	})
 }

@@ -14,7 +14,8 @@ limitations under the License. */
 
 var express = require('express'),
 request = require('request'),
-app = express();
+app = express(),
+sseConns = [];
 
 app.use(express.static(__dirname + '/public'));
 
@@ -39,6 +40,64 @@ function handleRequest(req, res) {
 }
 
 app.get('/v1/collections/*', handleRequest);
+
+function updateSSEListeners(msg, data) {
+	sseConns.forEach(function(element, index, array) {
+		element(msg, data);
+	});
+}
+
+function startSSE(req, res) {
+	// Create a response to a SSE request from the client, which establishes a stream connection between this
+	// server and that client. Returns a function that is used to send events back to client subsequently.
+	console.log("Sending event stream response...");
+	res.writeHead(200, {
+		'Content-Type' : 'text/event-stream',
+		'Cache-Control' : 'no-cache',
+		'Connection' : 'keep-alive'
+	});
+	res.write("\n");
+	console.log("Event source request responded to.");
+	sequence = 0;
+	return function sendSSE(eventName, eventData, id) {
+		//console.log("Sending event stream data for " + eventName);
+		res.write("event: " + eventName + "\n");
+		res.write("data: " + JSON.stringify(eventData) + "\n\n");
+	}
+}
+
+app.get('/events', function (req, res) {
+	// Got a request for an SSE connection - need to respond.
+	if (req.headers.accept && req.headers.accept == 'text/event-stream') {
+		if (req.url == '/events') {
+			console.log("Got event request from " + req.headers.referer);
+			// Respond to the SSE request and push the sse function onto the list of listening clients.
+			sseConns.push(startSSE(req, res));
+		} else {
+			res.writeHead(404);
+			res.end();
+		}
+	} else {
+		res.writeHead(500, {
+			'Content-Type' : 'text/html'
+		});
+		res.write("Malformed request");
+		res.end();
+	}
+})
+
+app.get('/generateevent', function(req, res) {
+	// Got a request to generate a mock event for the application to respond to.
+	updateSSEListeners('alarm', {
+		poleId: "75605"
+	});
+	
+	res.writeHead(200, {
+		'Content-Type' : 'text/html'
+		});
+	res.write("Event generated successfully");
+	res.end();
+})
 
 var listenPort = process.env.PORT || 3000;
 
