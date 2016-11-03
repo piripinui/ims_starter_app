@@ -60,4 +60,4 @@ The data for each layer is retrieved from an instance of the [Predix Intelligent
 * Demand Point - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_demand_point
 * Streetlight - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_light
 
-
+Each service request returns a [GeoJSON FeatureCollection](http://geojson.org/geojson-spec.html) which is used to create the vector features for each layer and display them on the map.
