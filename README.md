@@ -88,6 +88,8 @@ The starter app is set up to respond to real-time events using the [Server-Sent 
 
 By issuing this request from your browser you should see a "ripple" effect drawn on the map for pole with the id of 92423. For your application clearly that event would be coming from the Predix Machine-enabled sensor device, not simulated as in this example.
 
+!(https://github.com/piripinui/ims_starter_app/event_flow.PNG)
+
 # Creating your own Intelligent or Dynamic Mapping Services
 You may wish to create your own Intelligent and/or Dynamic Mapping instances rather than using the pre-loaded one described above. A reason for doing this would be to, for example, create maps using your own geospatial data rather the utility example dataset. 
 In order to do this you must create your own service instances (including authentication using UAA), bind them to your app and then upload sets of GeoJSON data to that instance. The first two steps are described in the documentation for both Intelligent and Dynamic Mapping [here](https://sw-intelligent-mapping.github.io/smallworld-mapping-services/index.htm#IntelligentMappingServices/ProcessOverview.htm%3FTocPath%3DGetting%2520started%2520with%2520Intelligent%2520Mapping%2520and%2520Dynamic%2520Mapping%2520services%7C_____0).
