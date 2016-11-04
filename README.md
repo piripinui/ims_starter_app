@@ -86,7 +86,7 @@ The starter app is set up to respond to real-time events using the [Server-Sent 
 
 [https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent](https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent)
 
-By issuing this request from your browser you should see a "ripple" effect drawn on the map for pole with the id of 92423. For your application clearly that event would be coming from the Predix Machine-enabled sensor device, not simulated as in this example.
+By issuing this request from your browser you should see a "ripple" effect drawn on the map for pole with the id of 92423. For your application clearly that event would be coming from the Predix Machine-enabled sensor device, not simulated as in this example. This is represented diagrammatically below:
 
 ![alt text](https://github.com/piripinui/ims_starter_app/blob/master/event_flow.PNG)
 
