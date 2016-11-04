@@ -305,46 +305,8 @@ function init() {
 			dot.remove();
 		}, 3500);
 	}
-
-	function createD3HighlightedPointFromFeature(aFeature) {
-		// Generates the animation of a tweet using D3.
-		var pixel = map.getPixelFromCoordinate(aFeature.getGeometry().getCoordinates());
-
-		//vector.getSource().addFeature(aFeature);
-
-		var dot = svg.append("circle")
-			.attr("class", "dot")
-			.attr("transform", "translate(" + pixel[0] + "," + pixel[1] + ")")
-			.attr("r", 8);
-
-		var ease = d3.easeLinear;
-
-		var ping = function () {
-			svg.append("circle")
-			.attr("class", "ring")
-			.attr("transform", "translate(" + pixel[0] + "," + pixel[1] + ")")
-			.attr("r", 6)
-			.style("stroke-width", 3)
-			.style("stroke", "red")
-			.transition()
-			//.easeLinear(10)
-			.duration(ease(3000))
-			.style("stroke-opacity", 1e-6)
-			.style("stroke-width", 1)
-			.style("stroke", "lt-red")
-			.attr("r", 160)
-			.remove();
-		}
-		var timeout = 0;
-		for (var i = 0; i < 5; i++) {
-			setTimeout(ping, timeout);
-			timeout += 400;
-		}
-
-		setTimeout(function () {
-			dot.remove();
-		}, 3500);
-	}
+	
+	// Set up an SSE connection.
 
 	var eventSource = new EventSource('/events');
 	var alarm = false;
@@ -362,9 +324,17 @@ function init() {
 	function panAndZoom(feature) {
 		alarmFeature = feature;
 		var mapView = map.getView();
+		var center = mapView.getCenter();
+		var featureCoords = feature.getGeometry().getCoordinates();
 
-		mapView.setCenter(feature.getGeometry().getCoordinates())
-		mapView.setZoom(15);
+		if (center[0] == featureCoords[0] && center[1] == featureCoords[1]) {
+			// Don't need to move the map so just draw the alarm.
+			drawAlarm();
+		}
+		else {
+			// Move the map to a new center position and rely on moveend event to draw the alarm.
+			mapView.setCenter(feature.getGeometry().getCoordinates())
+		}
 	}
 
 	eventSource.addEventListener('alarm', function (e) {
