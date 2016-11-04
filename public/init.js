@@ -361,6 +361,7 @@ function init() {
 
 					var alarmPole = src.forEachFeature(function (aFeature) {
 							if (aFeature.getProperties().id == poleId) {
+								
 								panAndZoom(aFeature);
 								return true;
 							}

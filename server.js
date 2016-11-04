@@ -92,7 +92,7 @@ app.get('/generateevent', function(req, res) {
 	// Got a request to generate a mock event for the application to respond to. Used to simulate
 	// an "external" event provoking an SSE message.
 	updateSSEListeners('alarm', {
-		poleId: "75605"
+		poleId: "92423"
 	});
 	
 	res.writeHead(200, {
