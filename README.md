@@ -84,7 +84,7 @@ Note that only GET requests can be made to the service above, meaning that it is
 ## Responding to Events
 The starter app is set up to respond to real-time events using the [Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) (SSE) technology. The idea is that the sensor device will create an event based on movement of the device (detected by accelerometer) and that event will be published in the Predix Cloud where it will be consumed by your application. Rather than polling for the event, the application will listen using SSE. When it is notified of an event it will find the relevant pole (using the pole's id property) and generate a "ripple" effect over the pole's location on the map. You can see a simulation of how this works by generating a mock event using the following URL:
 
-[https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent](https://https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent)
+[https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent](https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent)
 
 By issuing this request from your browser you should see a "ripple" effect drawn on the map for pole with the id of 75605. For your application clearly that event would be coming from the Predix Machine-enabled sensor device, not simulated as in this example.
 
