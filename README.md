@@ -88,7 +88,7 @@ The starter app is set up to respond to real-time events using the [Server-Sent 
 
 By issuing this request from your browser you should see a "ripple" effect drawn on the map for pole with the id of 92423. For your application clearly that event would be coming from the Predix Machine-enabled sensor device, not simulated as in this example.
 
-![alt text](https://github.com/piripinui/ims_starter_app/event_flow.PNG)
+![alt text](https://github.com/piripinui/ims_starter_app/blob/master/event_flow.PNG)
 
 # Creating your own Intelligent or Dynamic Mapping Services
 You may wish to create your own Intelligent and/or Dynamic Mapping instances rather than using the pre-loaded one described above. A reason for doing this would be to, for example, create maps using your own geospatial data rather the utility example dataset. 
