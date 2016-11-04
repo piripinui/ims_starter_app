@@ -65,24 +65,25 @@ limitations under the License. -->
 			font-size: 11pt;
 			font-weight: bold;
 			text-shadow: black 0.1em 0.1em 0.2em;
+			z-index: 1000;
 		}
 		.popover {
-			z-index: auto;
+			z-index: 1000;
 		}
 		.popover-content {
 			max-height: 200px;
-			min-width: 300px;
+			max-width: 300px;
 			overflow: auto;
+			z-index: 1000
 		}
- }
     </style>
-  </head>
-  <body onload="init()">
-    <div id="map" class="map"></div>
-	<div style="display: none;">
-      <div id="marker" title="Marker"></div>
-      <!-- Popup -->
-      <div id="popup" title="Location"></div>
-    </div>
-  </body>
+	</head>
+	<body onload="init()">
+		<div id="map" class="map"></div>
+		<div style="display: none;">
+			div id="marker" title="Marker"></div>
+			<!-- Popup -->
+			<div id="popup" title="Location"></div>
+		</div>
+	</body>
 </html>
