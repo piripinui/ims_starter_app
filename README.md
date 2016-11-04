@@ -86,7 +86,7 @@ The starter app is set up to respond to real-time events using the [Server-Sent 
 
 [https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent](https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent)
 
-By issuing this request from your browser you should see a "ripple" effect drawn on the map for pole with the id of 75605. For your application clearly that event would be coming from the Predix Machine-enabled sensor device, not simulated as in this example.
+By issuing this request from your browser you should see a "ripple" effect drawn on the map for pole with the id of 92423. For your application clearly that event would be coming from the Predix Machine-enabled sensor device, not simulated as in this example.
 
 # Creating your own Intelligent or Dynamic Mapping Services
 You may wish to create your own Intelligent and/or Dynamic Mapping instances rather than using the pre-loaded one described above. A reason for doing this would be to, for example, create maps using your own geospatial data rather the utility example dataset. 
