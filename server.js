@@ -42,6 +42,7 @@ function handleRequest(req, res) {
 app.get('/v1/collections/*', handleRequest);
 
 function updateSSEListeners(msg, data) {
+	// Sends an SSE event message to all connected SSE clients.
 	sseConns.forEach(function(element, index, array) {
 		element(msg, data);
 	});
@@ -67,7 +68,8 @@ function startSSE(req, res) {
 }
 
 app.get('/events', function (req, res) {
-	// Got a request for an SSE connection - need to respond.
+	// Got a request for an SSE connection - need to respond appropriately so that the connection is
+	// established between this server and that client.
 	if (req.headers.accept && req.headers.accept == 'text/event-stream') {
 		if (req.url == '/events') {
 			console.log("Got event request from " + req.headers.referer);
@@ -87,7 +89,8 @@ app.get('/events', function (req, res) {
 })
 
 app.get('/generateevent', function(req, res) {
-	// Got a request to generate a mock event for the application to respond to.
+	// Got a request to generate a mock event for the application to respond to. Used to simulate
+	// an "external" event provoking an SSE message.
 	updateSSEListeners('alarm', {
 		poleId: "75605"
 	});
