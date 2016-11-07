@@ -20,7 +20,7 @@ function init() {
 			image : new ol.style.Circle({
 				radius : 5,
 				fill : new ol.style.Fill({
-					color : 'red',
+					color : '#00ff00',
 					opacity : 0.6
 				}),
 				stroke : new ol.style.Stroke({
@@ -161,7 +161,7 @@ function init() {
 									color : 'rgba(10, 255, 0, 0.6)'
 								}),
 								stroke : new ol.style.Stroke({
-									color : 'yellow',
+									color : '#0000ff',
 									width : 10
 								})
 							});
