@@ -355,13 +355,13 @@ function init() {
 			.attr("transform", "translate(" + pixel[0] + "," + pixel[1] + ")")
 			.attr("r", 6)
 			.style("stroke-width", 3)
-			.style("stroke", "green")
+			.style("stroke", "blue")
 			.transition()
 			//.easeLinear(10)
 			.duration(ease(3000))
 			.style("stroke-opacity", 1e-6)
 			.style("stroke-width", 1)
-			.style("stroke", "lt-green")
+			.style("stroke", "lt-blue")
 			.attr("r", 160)
 			.remove();
 		}
