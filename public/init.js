@@ -149,10 +149,41 @@ function init() {
 		// with data from the IMS instance.
 		if (layers.hasOwnProperty(layerProp)) {
 			// Create a new Openlayers 3 layer.
+			var lineColor, lineWidth, specialStyle = false;
 			var layerName = layerProp;
 			
+			switch(layerProp) {
+				case 'ed_oh_secondary_conductor': {
+					lineColor = '#0000ff';
+					lineWidth = 10;
+					specialStyle = true;
+					break;
+				}
+				case 'ed_oh_primary_conductor': {
+					lineColor = '#6699ff';
+					lineWidth = 7;
+					specialStyle = true;
+					break;
+				}
+				case 'ed_ug_primary_conductor': {
+					lineColor = '#6699ff';
+					lineWidth = 5;
+					specialStyle = true;
+					break;
+				}
+				case 'ed_ug_secondary_conductor': {
+					lineColor = '#6699ff';
+					lineWidth = 5;
+					specialStyle = true;
+					break;
+				}
+				default: {
+					specialStyle = false;
+				}
+			}
+			
 			styleFunction = function(feature, resolution) {
-				if (layerProp == 'ed_oh_secondary_conductor') {
+				if (specialStyle) {
 					if (typeof alarmCircuitID != 'undefined') {
 						// If an alarm is set return a highlighted style.
 						if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
@@ -161,8 +192,8 @@ function init() {
 									color : 'rgba(10, 255, 0, 0.6)'
 								}),
 								stroke : new ol.style.Stroke({
-									color : '#0000ff',
-									width : 10
+									color : lineColor,
+									width : lineWidth
 								})
 							});
 						}
@@ -401,18 +432,6 @@ function init() {
 
 								id = aFeature.getProperties()["OH Secondary Conductor"];
 								alarmCircuitID = aFeature.getProperties()["Circuit " + id];
-
-								var conductors = [];
-
-								ohSecondaryConductorLayer.getSource().getFeatures().forEach(conductor => {
-									if (typeof conductor.getProperties()["Circuit ID"] != 'undefined') {
-										if (conductor.getProperties()["Circuit ID"] == alarmCircuitID) {
-											conductors.push(conductor);
-										}
-									}
-								})
-
-								console.log("Got " + conductors.length + " affected conductors");
 
 								// Pan to the pole's location.
 								panAndZoom(aFeature);
