@@ -386,7 +386,6 @@ function init() {
 	// the alarm is raised for, so we look up the map feature with that id and use it to relocate the
 	// map to its position and to draw an alarm "ripple".
 	eventSource.addEventListener('alarm', function (e) {
-		alarm = true;
 		map.getLayers().getArray().forEach(aLayer => {
 			if (typeof aLayer.layerName != 'undefined') {
 				if (aLayer.layerName == "Pole") {
@@ -397,6 +396,7 @@ function init() {
 							if (aFeature.getProperties().id == poleId) {
 								// Find all the OH Secondary Conductors with the same circuit id as
 								// this pole.
+								alarm = true;
 								var id;
 
 								id = aFeature.getProperties()["OH Secondary Conductor"];

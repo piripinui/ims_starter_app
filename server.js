@@ -88,11 +88,9 @@ app.get('/events', function (req, res) {
 	}
 })
 
-app.get('/generateevent', function(req, res) {
-	// Got a request to generate a mock event for the application to respond to. Used to simulate
-	// an "external" event provoking an SSE message.
+function generateEvent(req, res, poleId) {
 	updateSSEListeners('alarm', {
-		poleId: "92423"
+		poleId: poleId
 	});
 	
 	res.writeHead(200, {
@@ -100,6 +98,24 @@ app.get('/generateevent', function(req, res) {
 		});
 	res.write("Event generated successfully");
 	res.end();
+}
+
+app.get('/generateevent', function(req, res) {
+	// Got a request to generate a mock event for the application to respond to. Used to simulate
+	// an "external" event provoking an SSE message.
+	var poleId;
+	
+	var args = req.url.split("=");
+
+	if (args[0] == '/generateevent?poleId') {
+		poleId = args[1];
+	}
+	else {
+		poleId = "92433";
+	}
+
+	console.log("Generating event for " + poleId);
+	generateEvent(req, res, poleId);
 })
 
 var listenPort = process.env.PORT || 3000;
