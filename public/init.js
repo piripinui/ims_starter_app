@@ -141,22 +141,57 @@ function init() {
 			projection : 'EPSG:3857'
 		});
 
+	var ohSecondaryConductorLayer, alarmCircuitID;
+	var styleFunction;
+
 	function defineAndGetLayer(layerProp) {
 		// Helper function that creates Openlayers 3 layers and then populates them
 		// with data from the IMS instance.
 		if (layers.hasOwnProperty(layerProp)) {
 			// Create a new Openlayers 3 layer.
 			var layerName = layerProp;
+			
+			styleFunction = function(feature, resolution) {
+				if (layerProp == 'ed_oh_secondary_conductor') {
+					if (typeof alarmCircuitID != 'undefined') {
+						// If an alarm is set return a highlighted style.
+						if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
+							return new ol.style.Style({
+								fill : new ol.style.Fill({
+									color : 'rgba(10, 255, 0, 0.6)'
+								}),
+								stroke : new ol.style.Stroke({
+									color : 'yellow',
+									width : 10
+								})
+							});
+						}
+						else {
+							// Return the normal styles.
+							return styles[layerName];
+						}
+					} else {
+						// Return the normal style.
+						return styles[layerName];
+					}
+				}
+				else {
+					return styles[layerName];	
+				}
+			}
+			
 			var aLayer = new ol.layer.Vector({
 					source : new ol.source.Vector({
 						format : new ol.format.GeoJSON()
 					}),
-					style : function (feature, resolution) {
-						return styles[layerName];
-					}
+					style : styleFunction
 				});
 
 			aLayer.layerName = layers[layerProp];
+			
+			if (layerProp == 'ed_oh_secondary_conductor') {
+				ohSecondaryConductorLayer = aLayer;
+			}
 
 			mapLayers.push(aLayer);
 
@@ -312,12 +347,12 @@ function init() {
 			dot.remove();
 		}, 3500);
 	}
-	
+
 	// Set up an SSE connection.
 	var eventSource = new EventSource('/events');
 	var alarm = false;
 	var alarmFeature;
-	
+
 	function drawAlarm() {
 		// Callback for moveend event listener.
 		if (alarm) {
@@ -325,7 +360,7 @@ function init() {
 			alarm = false;
 		}
 	}
-	
+
 	// Set up an event listener for when the map is panned or zoomed. It will draw an alarm (if there is one to draw)
 	// over the map after it has been panned to the location of the pole that the alarm has been raised on.
 	map.on('moveend', drawAlarm);
@@ -341,8 +376,7 @@ function init() {
 		if (center[0] == featureCoords[0] && center[1] == featureCoords[1]) {
 			// Don't need to move the map so just draw the alarm.
 			drawAlarm();
-		}
-		else {
+		} else {
 			// Move the map to a new center position and rely on moveend event to draw the alarm.
 			mapView.setCenter(feature.getGeometry().getCoordinates())
 		}
@@ -361,7 +395,26 @@ function init() {
 
 					var alarmPole = src.forEachFeature(function (aFeature) {
 							if (aFeature.getProperties().id == poleId) {
-								
+								// Find all the OH Secondary Conductors with the same circuit id as
+								// this pole.
+								var id;
+
+								id = aFeature.getProperties()["OH Secondary Conductor"];
+								alarmCircuitID = aFeature.getProperties()["Circuit " + id];
+
+								var conductors = [];
+
+								ohSecondaryConductorLayer.getSource().getFeatures().forEach(conductor => {
+									if (typeof conductor.getProperties()["Circuit ID"] != 'undefined') {
+										if (conductor.getProperties()["Circuit ID"] == alarmCircuitID) {
+											conductors.push(conductor);
+										}
+									}
+								})
+
+								console.log("Got " + conductors.length + " affected conductors");
+
+								// Pan to the pole's location.
 								panAndZoom(aFeature);
 								return true;
 							}
