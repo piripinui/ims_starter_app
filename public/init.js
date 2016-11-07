@@ -276,20 +276,20 @@ function init() {
 					}
 				}
 			}
-		} else {
-			$(element).attr("title", "Location");
+			$(element).popover('destroy');
+			popup.setPosition(coordinate);
+			// the keys are quoted to prevent renaming in ADVANCED_OPTIMIZATIONS mode.
+			$(element).popover({
+				'placement' : 'top',
+				'animation' : false,
+				'html' : true,
+				'content' : content + '<code>' + hdms + '</code>'
+			});
+			$(element).popover('show');
 		}
-
-		$(element).popover('destroy');
-		popup.setPosition(coordinate);
-		// the keys are quoted to prevent renaming in ADVANCED_OPTIMIZATIONS mode.
-		$(element).popover({
-			'placement' : 'top',
-			'animation' : false,
-			'html' : true,
-			'content' : content + '<code>' + hdms + '</code>'
-		});
-		$(element).popover('show');
+		else {
+			$(element).popover('destroy');
+		}
 	});
 
 	var svg;
