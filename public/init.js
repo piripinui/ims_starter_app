@@ -30,16 +30,13 @@ function init() {
 			})
 		}),
 		ed_oh_transformer : new ol.style.Style({
-			image : new ol.style.Circle({
-				radius : 2,
-				fill : new ol.style.Fill({
-					color : 'purple',
-					opacity : 0.6
-				}),
-				stroke : new ol.style.Stroke({
-					color : 'black',
-					opacity : 0.4
-				})
+			image : new ol.style.RegularShape({
+			  fill: new ol.style.Fill({color: 'red'}),
+			  stroke: new ol.style.Stroke({color: 'black', width: 2}),
+			  points: 3,
+			  radius: 5,
+			  rotation: 0,
+			  angle: 0
 			})
 		}),
 		ed_demand_point : new ol.style.Style({
