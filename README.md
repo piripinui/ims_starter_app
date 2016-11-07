@@ -64,16 +64,16 @@ There are 10 layers in the dataset:
 
 The data for each layer is retrieved from an instance of the [Predix Intelligent Mapping service](https://www.predix.io/services/service.html?id=1846) using AJAX requests to service endpoints whose path correspond to the layers above. For example:
 
-* Overhead Secondary Conductor - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_secondary_conductor
-* Underground Secondary Conductor - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_ug_secondary_conductor
-* Overhead Primary Conductor - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_primary_conductor
-* Underground Primary Conductor - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_ug_primary_conductor
-* Handhole - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_handhole
-* Pole - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_pole
-* Substation - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/sub_substation
-* Overhead Transformer - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_transformer
-* Demand Point - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_demand_point
-* Streetlight - https://imd-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_light
+* Overhead Secondary Conductor - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_secondary_conductor
+* Underground Secondary Conductor - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_ug_secondary_conductor
+* Overhead Primary Conductor - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_primary_conductor
+* Underground Primary Conductor - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_ug_primary_conductor
+* Handhole - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_handhole
+* Pole - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_pole
+* Substation - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/sub_substation
+* Overhead Transformer - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_transformer
+* Demand Point - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_demand_point
+* Streetlight - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_light
 
 Each service request returns a [GeoJSON FeatureCollection](http://geojson.org/geojson-spec.html) which is used to create the vector features for each layer and display them on the map.
 
