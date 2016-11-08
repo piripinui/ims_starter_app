@@ -13,6 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License. */
 
 function init() {
+	var defaultZoom =13;
 
 	// Define a set of styles to use when the features are rendered on the map.
 	var styles = {
@@ -140,6 +141,12 @@ function init() {
 
 	var ohSecondaryConductorLayer, alarmCircuitID;
 	var styleFunction;
+	
+	function layerVisible(layername, zoom) {
+		var layerVisible = zoom >= layers[layername].startVisible && zoom <= layers[layername].endVisible;
+		
+		return layerVisible;
+	}
 
 	function defineAndGetLayer(layerProp) {
 		// Helper function that creates Openlayers 3 layers and then populates them
@@ -210,49 +217,100 @@ function init() {
 			
 			var aLayer = new ol.layer.Vector({
 					source : new ol.source.Vector({
-						format : new ol.format.GeoJSON()
+						format : new ol.format.GeoJSON(),
+						strategy: function(extent, resolution) {
+							var coord1 = ol.proj.transform([extent[0], extent[1]], 'EPSG:3857', 'EPSG:4326');
+							var coord2 = ol.proj.transform([extent[2], extent[3]], 'EPSG:3857', 'EPSG:4326');
+							
+							return [[coord1[0], coord1[1], coord2[0], coord2[1]]];
+						},
+						loader: function(extent, resolution) {
+							var url = '/v1/collections/' + layerName + '/spatial-query/bbox-interacts/' + extent[0] + "," + extent[1] + "," + extent[2] + "," + extent[3];
+
+							$.ajax({
+								url : url,
+								type : 'GET',
+								success : function (data) {
+									var features = geoFormatter.readFeatures(data, {
+											dataProjection : 'EPSG:4326',
+											featureProjection : 'EPSG:3857'
+										});
+									//console.log("Collection call succeeded for " + url + " (" + features.length + " features)");
+									aLayer.getSource().addFeatures(features);
+								}
+							})
+						}
 					}),
-					style : styleFunction
+					style : styleFunction,
+					visible: layerVisible(layerProp, defaultZoom)
 				});
 
-			aLayer.layerName = layers[layerProp];
+			aLayer.layerName = layers[layerProp].externalName;
+			aLayer.layerKey = layerProp;
 			
 			if (layerProp == 'ed_oh_secondary_conductor') {
 				ohSecondaryConductorLayer = aLayer;
 			}
 
 			mapLayers.push(aLayer);
-
-			// Fetch the layer data and add it to the layer's source.
-			$.ajax({
-				url : '/v1/collections/' + layerName,
-				type : 'GET',
-				success : function (data) {
-					var features = geoFormatter.readFeatures(data, {
-							dataProjection : 'EPSG:4326',
-							featureProjection : 'EPSG:3857'
-						});
-					console.log("Collection call succeeded for /v1/collections/" + layerName + " (" + features.length + " features)");
-					aLayer.getSource().addFeatures(features);
-				}
-			});
 		}
 	}
 
 	// Defines the layers to be added to the map. The keys are the name of the collections
 	// stored in the IMS instance, the values are the human-readable name of collection used
 	// in the popover when the user clicks on the map.
+	
 	var layers = {
-		'ed_oh_secondary_conductor' : 'Overhead Secondary Conductor',
-		'ed_ug_secondary_conductor' : 'Underground Secondary Conductor',
-		'ed_oh_primary_conductor' : 'Overhead Primary Conductor',
-		'ed_ug_primary_conductor' : 'Underground Primary Conductor',
-		'ed_handhole' : 'Handhole',
-		'ed_pole' : 'Pole',
-		'sub_substation' : 'Substation',
-		'ed_oh_transformer' : 'Overhead Transformer',
-		'ed_demand_point' : 'Demand Point',
-		'ed_light' : 'Streetlight'
+		'ed_oh_secondary_conductor' : {
+			externalName: 'Overhead Secondary Conductor',
+			startVisible: 15,
+			endVisible: 21
+		},
+		'ed_ug_secondary_conductor' : {
+			externalName: 'Underground Secondary Conductor',
+			startVisible: 15,
+			endVisible: 21
+		},
+		'ed_oh_primary_conductor' : {
+			externalName: 'Overhead Primary Conductor',
+			startVisible: 0,
+			endVisible: 21
+		},
+		'ed_ug_primary_conductor' : {
+			externalName: 'Underground Primary Conductor',
+			startVisible: 15,
+			endVisible: 21
+		},
+		'ed_handhole' : {
+			externalName: 'Handhole',
+			startVisible: 15,
+			endVisible: 21
+		},
+		'ed_pole' : {
+			externalName: 'Pole',
+			startVisible: 15,
+			endVisible: 21
+		},
+		'sub_substation' : {
+			externalName: 'Substation',
+			startVisible: 15,
+			endVisible: 21
+		},
+		'ed_oh_transformer' : {
+			externalName: 'Overhead Transformer',
+			startVisible: 15,
+			endVisible: 21
+		},
+		'ed_demand_point' : {
+			externalName: 'Demand Point',
+			startVisible: 18,
+			endVisible: 21
+		},
+		'ed_light' : {
+			externalName: 'Streetlight',
+			startVisible: 15,
+			endVisible: 21
+		}
 	}
 
 	// Create the layers for the map.
@@ -267,7 +325,7 @@ function init() {
 			view : new ol.View({
 				// Hardwired to centre the map over Cortland, NY.
 				center : ol.proj.transform([-76.180484, 42.601181], 'EPSG:4326', 'EPSG:3857'),
-				zoom : 10
+				zoom : defaultZoom
 			})
 		});
 
@@ -381,8 +439,18 @@ function init() {
 	var alarm = false;
 	var alarmFeature;
 
-	function drawAlarm() {
+	function processMove(evt) {
 		// Callback for moveend event listener.
+
+		var aView = evt.map.getView()
+		var zoom = aView.getZoom();
+		
+		mapLayers.forEach(aLayer => {
+			if (typeof aLayer.layerName != 'undefined') {
+				aLayer.setVisible(layerVisible(aLayer.layerKey, zoom));				
+			}
+		})
+		
 		if (alarm) {
 			createD3PointFromFeature(alarmFeature);
 			alarm = false;
@@ -391,7 +459,7 @@ function init() {
 
 	// Set up an event listener for when the map is panned or zoomed. It will draw an alarm (if there is one to draw)
 	// over the map after it has been panned to the location of the pole that the alarm has been raised on.
-	map.on('moveend', drawAlarm);
+	map.on('moveend', processMove);
 
 	function panAndZoom(feature) {
 		// Helper function that pans the map to the alarm location (if necessary) and triggers
@@ -409,6 +477,22 @@ function init() {
 			mapView.setCenter(feature.getGeometry().getCoordinates())
 		}
 	}
+	
+	function getPole(id) {
+		var url = '/v1/collections/' + layerName + '/text?q=' + id;
+		$.ajax({
+			url : url,
+			type : 'GET',
+			success : function (data) {
+				var features = geoFormatter.readFeatures(data, {
+						dataProjection : 'EPSG:4326',
+						featureProjection : 'EPSG:3857'
+					});
+				//console.log("Collection call succeeded for " + url + " (" + features.length + " features)");
+				aLayer.getSource().addFeatures(features);
+			}
+		})
+	}
 
 	// Listens for SSE events generated by the server. Events of type alarm have the id of the pole
 	// the alarm is raised for, so we look up the map feature with that id and use it to relocate the
@@ -417,25 +501,43 @@ function init() {
 		map.getLayers().getArray().forEach(aLayer => {
 			if (typeof aLayer.layerName != 'undefined') {
 				if (aLayer.layerName == "Pole") {
+					// Find a pole with this pole id.
 					var poleId = JSON.parse(e.data).poleId;
 					var src = aLayer.getSource();
+					
+					var url = '/v1/collections/' + aLayer.layerKey + '/text?q=' + poleId;
+					$.ajax({
+						url : url,
+						type : 'GET',
+						success : function (data) {					
+							// Add GeoJSON feature to the pole layer.
+							if (data.features.length > 0) {
+								var features = geoFormatter.readFeatures(data, {
+											dataProjection : 'EPSG:4326',
+											featureProjection : 'EPSG:3857'
+										});
 
-					var alarmPole = src.forEachFeature(function (aFeature) {
-							if (aFeature.getProperties().id == poleId) {
-								// Find all the OH Secondary Conductors with the same circuit id as
-								// this pole.
-								alarm = true;
-								var id;
+								aLayer.getSource().addFeatures(features);
+								
+								// Find the OL feature & pan to it.
+								src.forEachFeature(function (aFeature) {
+									if (aFeature.getProperties().id == poleId) {
+										// Find all the OH Secondary Conductors with the same circuit id as
+										// this pole.
+										alarm = true;
+										var id;
 
-								id = aFeature.getProperties()["OH Secondary Conductor"];
-								alarmCircuitID = aFeature.getProperties()["Circuit " + id];
+										id = aFeature.getProperties()["OH Secondary Conductor"];
+										alarmCircuitID = aFeature.getProperties()["Circuit " + id];
 
-								// Pan to the pole's location.
-								panAndZoom(aFeature);
-								return true;
+										// Pan to the pole's location.
+										panAndZoom(aFeature);
+										return true;
+									}
+								})
 							}
-						});
-
+						}
+					})
 				}
 			}
 		})
