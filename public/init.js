@@ -451,6 +451,10 @@ function init() {
 			}
 		})
 		
+		drawAlarm();
+	}
+	
+	function drawAlarm() {
 		if (alarm) {
 			createD3PointFromFeature(alarmFeature);
 			alarm = false;
