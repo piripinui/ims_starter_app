@@ -51,11 +51,7 @@ var main = function main() {
 	var contents = fs.readFileSync(filename, 'utf-8');
 	var bearerStr = process.argv[5];
 
-	var tokenPromise = getToken();
-
-	tokenPromise.then(function () {
-		addCollection(collectionName, contents, zoneId, bearerStr);
-	});
+	addCollection(collectionName, contents, zoneId, bearerStr);
 }
 
 main();
