@@ -263,12 +263,12 @@ function init() {
 	var layers = {
 		'ed_oh_secondary_conductor' : {
 			externalName: 'Overhead Secondary Conductor',
-			startVisible: 15,
+			startVisible: 17,
 			endVisible: 21
 		},
 		'ed_ug_secondary_conductor' : {
 			externalName: 'Underground Secondary Conductor',
-			startVisible: 15,
+			startVisible: 17,
 			endVisible: 21
 		},
 		'ed_oh_primary_conductor' : {
