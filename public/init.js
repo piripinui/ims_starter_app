@@ -283,12 +283,12 @@ function init() {
 		},
 		'ed_handhole' : {
 			externalName: 'Handhole',
-			startVisible: 15,
+			startVisible: 17,
 			endVisible: 21
 		},
 		'ed_pole' : {
 			externalName: 'Pole',
-			startVisible: 15,
+			startVisible: 17,
 			endVisible: 21
 		},
 		'sub_substation' : {
@@ -298,7 +298,7 @@ function init() {
 		},
 		'ed_oh_transformer' : {
 			externalName: 'Overhead Transformer',
-			startVisible: 15,
+			startVisible: 17,
 			endVisible: 21
 		},
 		'ed_demand_point' : {
@@ -308,7 +308,7 @@ function init() {
 		},
 		'ed_light' : {
 			externalName: 'Streetlight',
-			startVisible: 15,
+			startVisible: 17,
 			endVisible: 21
 		}
 	}
