@@ -96,7 +96,7 @@ function generateEvent(req, res, poleId) {
 	res.writeHead(200, {
 		'Content-Type' : 'text/html'
 		});
-	res.write("Event generated successfully");
+	res.write("Event generated successfully for " + poleId);
 	res.end();
 }
 
@@ -111,7 +111,7 @@ app.get('/generateevent', function(req, res) {
 		poleId = args[1];
 	}
 	else {
-		poleId = "92433";
+		poleId = "91390";
 	}
 
 	console.log("Generating event for " + poleId);
