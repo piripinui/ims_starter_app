@@ -189,17 +189,32 @@ function init() {
 			styleFunction = function(feature, resolution) {
 				if (specialStyle) {
 					if (typeof alarmCircuitID != 'undefined') {
-						// If an alarm is set return a highlighted style.
+						// If an alarm is set return a highlighted style for all features with that circuit ID.
 						if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
-							return new ol.style.Style({
-								fill : new ol.style.Fill({
-									color : 'rgba(10, 255, 0, 0.6)'
-								}),
-								stroke : new ol.style.Stroke({
-									color : lineColor,
-									width : lineWidth
-								})
-							});
+							if (feature.getProperties().id == alarmSecondaryConductor) {
+								// Highlight the secondary conductor attached to the alarmed pole in red.
+								return new ol.style.Style({
+									fill : new ol.style.Fill({
+										color : '#ff0000'
+									}),
+									stroke : new ol.style.Stroke({
+										color : '#ff0000',
+										width : lineWidth
+									})
+								});
+							}
+							else {
+								// Highlight features in the same circuit in blue.
+								return new ol.style.Style({
+									fill : new ol.style.Fill({
+										color : 'rgba(10, 255, 0, 0.6)'
+									}),
+									stroke : new ol.style.Stroke({
+										color : lineColor,
+										width : lineWidth
+									})
+								});
+							}
 						}
 						else {
 							// Return the normal styles.
@@ -509,6 +524,7 @@ function init() {
 					var poleId = JSON.parse(e.data).poleId;
 					var src = aLayer.getSource();
 					
+					// Make a request to Predix IMS for the Pole with this id.
 					var url = '/v1/collections/' + aLayer.layerKey + '/text?q=' + poleId;
 					$.ajax({
 						url : url,
@@ -533,6 +549,7 @@ function init() {
 
 										id = aFeature.getProperties()["OH Secondary Conductor"];
 										alarmCircuitID = aFeature.getProperties()["Circuit " + id];
+										alarmSecondaryConductor = aFeature.getProperties()["OH Secondary Conductor"];
 
 										// Pan to the pole's location.
 										panAndZoom(aFeature);
