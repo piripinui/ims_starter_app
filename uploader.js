@@ -2,7 +2,7 @@
 
 var fs = require('fs'),
 request = require('request'),
-apiUrl = 'https://intelligent-mapping-prod.run.aws-usw02-pr.ice.predix.io/v1/collections/';
+apiUrl = '<Insert your collection service endpoint here>';
 
 
 var addCollection = function addCollection(collectionName, contents, zoneId, bearerStr) {
@@ -13,11 +13,12 @@ var addCollection = function addCollection(collectionName, contents, zoneId, bea
 	console.log(bearerStr);
 	
 	for (var i = 0; i < contentJson.features.length; i += 1000) {
+		// Chop up the feature array by 1000 element chunks.
 		var end = Math.min(i + 1000, contentJson.features.length);
-		console.log("Uploading " + i + " to " + end + " out of " + contentJson.features.length);
+		console.log("Uploading " + i + " to " + (end - 1) + " out of " + contentJson.features.length);
 		var content = JSON.stringify({
 			type: "FeatureCollection",
-			features: contentJson.features.splice(i, end)
+			features: contentJson.features.slice(i, end)
 		})
 		
 		var options = {
@@ -26,13 +27,12 @@ var addCollection = function addCollection(collectionName, contents, zoneId, bea
 			headers : {
 				'Content-Type' : 'application/json',
 				'Predix-Zone-Id' : zoneId,
-				'x-subtenant-Id' : 'philtenant',
+				'x-subtenant-Id' : '<Insert your tenant id here>',
 				'Authorization' : bearerStr
 			},
 			body : content
 		};
 
-		//console.log(bearerStr);
 		console.log("Requesting upload to " + apiUrl + collectionName);
 
 		request(options, function (error, res, body) {
