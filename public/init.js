@@ -181,16 +181,23 @@ function init() {
 					specialStyle = true;
 					break;
 				}
+				case 'ed_pole': {
+					poleFillColor = '#ff6600';
+					specialStyle = true;
+					break;
+				}
 				default: {
 					specialStyle = false;
 				}
 			}
 			
 			styleFunction = function(feature, resolution) {
-				if (specialStyle) {
-					if (typeof alarmCircuitID != 'undefined') {
-						// If an alarm is set return a highlighted style for all features with that circuit ID.
-						if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
+				switch(layerName) {
+					case 'ed_oh_secondary_conductor': {
+						lineColor = '#0000ff';
+						lineWidth = 10;
+						
+						if (typeof alarmSecondaryConductor != 'undefined') {
 							if (feature.getProperties().id == alarmSecondaryConductor) {
 								// Highlight the secondary conductor attached to the alarmed pole in red.
 								return new ol.style.Style({
@@ -203,8 +210,11 @@ function init() {
 									})
 								});
 							}
-							else {
-								// Highlight features in the same circuit in blue.
+						}
+					
+						if (typeof alarmCircuitID != 'undefined') {
+							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
+								// Highlight connected secondary conductors in blue.
 								return new ol.style.Style({
 									fill : new ol.style.Fill({
 										color : 'rgba(10, 255, 0, 0.6)'
@@ -216,17 +226,128 @@ function init() {
 								});
 							}
 						}
+						
+						// Default to returning the normal style for this asset class.
+						return styles[layerName];
+
+						break;
+					}
+					case 'ed_oh_primary_conductor': {
+						lineColor = '#6699ff';
+						lineWidth = 7;
+						
+						if (typeof alarmPrimaryConductor != 'undefined') {
+							if (feature.getProperties().id == alarmPrimaryConductor) {
+								// Highlight the primary conductor attached to the alarmed pole in orange.
+								return new ol.style.Style({
+									fill : new ol.style.Fill({
+										color : '#ff6600'
+									}),
+									stroke : new ol.style.Stroke({
+										color : '#ff6600',
+										width : lineWidth
+									})
+								});
+							}
+						}
+						
+						if (typeof alarmCircuitID != 'undefined') {
+							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
+								// Highlight connected primary conductors in blue.
+								return new ol.style.Style({
+									fill : new ol.style.Fill({
+										color : 'rgba(10, 255, 0, 0.6)'
+									}),
+									stroke : new ol.style.Stroke({
+										color : lineColor,
+										width : lineWidth
+									})
+								});
+							}
+						}
+						
+						// Default to returning the normal style for this asset class.
+						return styles[layerName];
+						
+						break;
+					}
+					case 'ed_ug_primary_conductor': {
+						lineColor = '#6699ff';
+						lineWidth = 5;
+						
+						if (typeof alarmCircuitID != 'undefined') {
+							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
+								// Highlight connected underground primary conductors in blue.
+								return new ol.style.Style({
+									fill : new ol.style.Fill({
+										color : 'rgba(10, 255, 0, 0.6)'
+									}),
+									stroke : new ol.style.Stroke({
+										color : lineColor,
+										width : lineWidth
+									})
+								});
+							}
+						}
+						
+						// Default to returning the normal style for this asset class.
+						return styles[layerName];
+
+						break;
+					}
+					case 'ed_ug_secondary_conductor': {
+						lineColor = '#6699ff';
+						lineWidth = 5;
+						
+						if (typeof alarmCircuitID != 'undefined') {
+							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
+								// Highlight connected underground primary conductors in blue.
+								return new ol.style.Style({
+									fill : new ol.style.Fill({
+										color : 'rgba(10, 255, 0, 0.6)'
+									}),
+									stroke : new ol.style.Stroke({
+										color : lineColor,
+										width : lineWidth
+									})
+								});
+							}
+						}
+						
+						// Default to returning the normal style for this asset class.
+						return styles[layerName];
+						
+						break;
+					}
+					case 'ed_pole': {
+						poleFillColor = '#ff0000';
+						
+						if (feature.getProperties().id == alarmPole) {
+							// Have got the pole for which the alarm was raised, return a red highlighted style.
+							return new ol.style.Style({
+								image : new ol.style.Circle({
+									radius : 5,
+									fill : new ol.style.Fill({
+										color : poleFillColor,
+										opacity : 0.6
+									}),
+									stroke : new ol.style.Stroke({
+										color : 'black',
+										opacity : 0.4
+									})
+								})
+							})
+						}
 						else {
-							// Return the normal styles.
+							// Return normal style.
 							return styles[layerName];
 						}
-					} else {
-						// Return the normal style.
+
+						break;
+					}
+					default: {
 						return styles[layerName];
 					}
-				}
-				else {
-					return styles[layerName];	
 				}
 			}
 			
@@ -548,8 +669,10 @@ function init() {
 										var id;
 
 										id = aFeature.getProperties()["OH Secondary Conductor"];
+										alarmPole = poleId;
 										alarmCircuitID = aFeature.getProperties()["Circuit " + id];
 										alarmSecondaryConductor = aFeature.getProperties()["OH Secondary Conductor"];
+										alarmPrimaryConductor = aFeature.getProperties()["OH Primary Conductor"]
 
 										// Pan to the pole's location.
 										panAndZoom(aFeature);
