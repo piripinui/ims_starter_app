@@ -13,7 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License. */
 
 function init() {
-	var defaultZoom =13;
+	var defaultZoom = 13, svg,
+	alarmCircuitID, alarmFeature, alarmPole, alarmPrimaryConductor, alarmSecondaryConductor,
+	ohSecondaryConductorLayer, alarmCircuitID, styleFunction, alarm = false, alarmFeature;;
 
 	// Define a set of styles to use when the features are rendered on the map.
 	var styles = {
@@ -138,9 +140,6 @@ function init() {
 			defaultDataProjection : 'EPSG:4326',
 			projection : 'EPSG:3857'
 		});
-
-	var ohSecondaryConductorLayer, alarmCircuitID;
-	var styleFunction;
 	
 	function layerVisible(layername, zoom) {
 		var layerVisible = zoom >= layers[layername].startVisible && zoom <= layers[layername].endVisible;
@@ -514,8 +513,6 @@ function init() {
 		}
 	});
 
-	var svg;
-
 	function createD3SvgCanvas() {
 		// Creates the D3 SVG canvas used to render alarm "ripple" animations.
 		var v = map.getView();
@@ -572,8 +569,6 @@ function init() {
 
 	// Set up an SSE connection.
 	var eventSource = new EventSource('/events');
-	var alarm = false;
-	var alarmFeature;
 
 	function processMove(evt) {
 		// Callback for moveend event listener.
