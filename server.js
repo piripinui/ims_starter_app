@@ -111,7 +111,7 @@ app.get('/generateevent', function(req, res) {
 		poleId = args[1];
 	}
 	else {
-		poleId = "91390";
+		poleId = "91659";
 	}
 
 	console.log("Generating event for " + poleId);
