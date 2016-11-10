@@ -53,7 +53,7 @@ The starter app uses [Openlayers 3](https://openlayers.org/) to display the map.
 
 The application is set up so that when the user clicks on the map a popover will be raised. If the location at which the mouse click coincides with one of the assets, the popover will have a heading corresponding to the layer that asset is on (as above) or just the coordinates of the location in lat/lon degrees.
 
-The application is also set up to listen to event alarms that are generated externally e.g. from a [Predix Machine](https://www.predix.io/services/service.html?id=1185) enabled sensor. However for demonstration purposes generation of these events can be simulated from the server application by making a web request - see [Responding to Events](#responding-to-events).
+The application is also set up to listen to event alarms that might be generated externally e.g. from a [Predix Machine](https://www.predix.io/services/service.html?id=1185) enabled sensor. However for demonstration purposes generation of these events can be simulated from the server application by making a web request - see [Responding to Events](#responding-to-events).
 
 ### Structure
 The app consists of a HTML/Javascript client (held in the public directory) and a nodejs server (in the root directory). The server serves up the static HTML and Javascript of the client on port 3000 and redirects requests from the client to the Predix data endpoints described above. 
