@@ -371,7 +371,7 @@ function init() {
 											featureProjection : 'EPSG:3857'
 										});
 									//console.log("Collection call succeeded for " + url + " (" + features.length + " features)");
-									aLayer.getSource().clear();
+									aLayer.getSource().clear(true);
 									aLayer.getSource().addFeatures(features);
 								}
 							})
