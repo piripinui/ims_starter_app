@@ -1,3 +1,5 @@
+# Table of Contents
+
 - [ims-starter-app](#ims-starter-app)
   * [Hackathon Challenge](#hackathon-challenge)
   * [The Intelligent and Dynamic Mapping Services](#the-intelligent-and-dynamic-mapping-services)
