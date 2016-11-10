@@ -1,3 +1,13 @@
+- [ims-starter-app](#ims-starter-app)
+  * [Hackathon Challenge](#hackathon-challenge)
+  * [The Intelligent and Dynamic Mapping Services](#the-intelligent-and-dynamic-mapping-services)
+  * [Installation](#installation)
+  * [How it works](#how-it-works)
+    + [Structure](#structure)
+    + [Vector Data and Service Endpoints](#vector-data-and-service-endpoints)
+  * [Responding to Events](#responding-to-events)
+- [Creating your own Intelligent or Dynamic Mapping Services](#creating-your-own-intelligent-or-dynamic-mapping-services)
+
 # ims-starter-app
 
 This application is intended as a starting point for contestants wanting to create geospatial maps using Predix at the Minds and Machines Hackathon November 2016 in San Francisco. It uses an existing electric utility demonstration dataset that has been pre-loaded into the [Intelligent Mapping service](https://www.predix.io/services/service.html?id=1846) in [Predix.io](https://www.predix.io/). A live example of this app can be found [here](https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/).
