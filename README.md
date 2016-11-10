@@ -45,7 +45,7 @@ Start the app:
 
 `npm start`
 
-Start a browser and navigate to http://localhost:3000.
+Start a browser and navigate to [http://localhost:3000](http://localhost:3000).
 
 ## How it works
 
