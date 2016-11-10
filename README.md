@@ -62,7 +62,7 @@ There are 10 layers in the dataset:
 * Demand Point
 * Streetlight
 
-The data for each layer is retrieved from an instance of the [Predix Intelligent Mapping service](https://www.predix.io/services/service.html?id=1846) using AJAX requests to service endpoints whose path correspond to the layers above. For example:
+The data for each layer is retrieved from an instance of the [Predix Intelligent Mapping service](https://www.predix.io/services/service.html?id=1846) using AJAX requests to service endpoints whose path correspond to the layers above. The server that is presenting these endpoints is acting as a proxy for an instance of Intelligent Mapping that has the dataset loaded into it. This means that you can send requests for data very simply, for example:
 
 * Overhead Secondary Conductor - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_oh_secondary_conductor
 * Underground Secondary Conductor - https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/v1/collections/ed_ug_secondary_conductor
@@ -79,7 +79,7 @@ Each service request returns a [GeoJSON FeatureCollection](http://geojson.org/ge
 
 The GeoJSON data that was used to create the datasets in the endpoints above is available in the data directory, for reference.
 
-Note that only GET requests can be made to the service above, meaning that it is not possible to delete or update the records in that dataset. This has been done deliberately since many people will be using the same data. If you wish to update or delete data, you will need to create your own instance of Intelligent Mapping and upload the example data. For more information on how to do that, see "Creating your own Intelligent or Dynamic Mapping Services" below.
+Note that the proxy server only allows GET requests to be made to the services above, meaning that it is not possible to delete or update the records in that dataset using those services. This has been done deliberately since many people will be using the same data. If you wish to update or delete data, you will need to create your own instance of Intelligent Mapping and upload the example data. For more information on how to do that, see "Creating your own Intelligent or Dynamic Mapping Services" below.
 
 ## Responding to Events
 The starter app is set up to respond to real-time events using the [Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) (SSE) technology. The idea is that the sensor device will create an event based on movement of the device (detected by accelerometer) and that event will be published in the Predix Cloud where it will be consumed by your application. Rather than polling for the event, the application will listen using SSE. When it is notified of an event it will find the relevant pole (using the pole's id property) and generate a "ripple" effect over the pole's location on the map. You can see a simulation of how this works by generating a mock event using the following URL:
