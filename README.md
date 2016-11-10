@@ -56,7 +56,7 @@ The application is set up so that when the user clicks on the map a popover will
 The application is also set up to listen to event alarms that are generated externally e.g. from a [Predix Machine](https://www.predix.io/services/service.html?id=1185) enabled sensor. However for demonstration purposes generation of these events can be simulated from the server application by making a web request.
 
 ### Structure
-The app consists of a HTML/Javascript client (held in the public directory) and a nodejs server (in the root directory). The server serves up the static HTML and Javascript of the client on port 3000 and redirects requests from the client to the Predix data endpoints described above. 
+The app consists of a HTML/Javascript client (held in the public directory) and a nodejs server (in the root directory). The server serves up the static HTML and Javascript of the client on port 3000 (if running locally) and redirects requests from the client to the Predix data endpoints described above. 
 
 The server also sets up a [Server-Sent Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) connection for every client that connects to it. This connection is used to demonstrate how the client can listen to external events like alarms from sensors in real-time.
 
