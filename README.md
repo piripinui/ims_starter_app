@@ -104,6 +104,12 @@ If you want to generate an event for an arbitrary event then you can add paramet
 
 [https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent?poleId=93812](https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/generateevent?poleId=93812)
 
+Alternatively, you can see how the app behaves using an example web page:
+
+[https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/PoleLeaningSensor.html](https://ims-starter-app.run.aws-usw02-pr.ice.predix.io/PoleLeaningSensor.html)
+
+You can enter a pole id in any browser and observer how the map changes on the main app.
+
 In both case the client application will respond to the event, pan the map to the specified pole on the map (if it exists) and then display both a "ripple" effect around the pole location as well as highlighting the secondary wires attached to the pole (and the circuit generally) potentially affected by the event.
 
 For your application clearly that event would be coming from the Predix Machine-enabled sensor device, not simulated as in this example. This is represented diagrammatically below:
