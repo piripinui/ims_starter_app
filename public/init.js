@@ -351,7 +351,7 @@ function init() {
 									offsetY: 10,
 									text: feature.get('id'),
 									fill: new ol.style.Fill({color: 'red'}),
-									stroke: new ol.style.Stroke({color: 'red', width: 0.5})
+									stroke: new ol.style.Stroke({color: 'white', width: 0.5})
 								})
 							})
 						}
