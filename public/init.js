@@ -354,12 +354,40 @@ function init() {
 										color : 'black',
 										opacity : 0.4
 									})
+								}),
+								text: new ol.style.Text({
+									font: '12px Verdana',
+									offsetX: 0,
+									offsetY: 10,
+									text: feature.get('id'),
+									fill: new ol.style.Fill({color: 'red'}),
+									stroke: new ol.style.Stroke({color: 'red', width: 0.5})
 								})
 							})
 						}
 						else {
 							// Return normal style.
-							return styles[layerName];
+							return new ol.style.Style({
+								image : new ol.style.Circle({
+									radius : 5,
+									fill : new ol.style.Fill({
+										color : '#00ff00',
+										opacity : 0.6
+									}),
+									stroke : new ol.style.Stroke({
+										color : 'black',
+										opacity : 0.4
+									})
+								}),
+								text: new ol.style.Text({
+									font: '10px Verdana',
+									offsetX: 0,
+									offsetY: 10,
+									text: feature.get('id'),
+									fill: new ol.style.Fill({color: 'black'}),
+									stroke: new ol.style.Stroke({color: 'white', width: 0.5})
+								})
+							})
 						}
 
 						break;
