@@ -450,7 +450,7 @@ function init() {
 		},
 		'ed_pad' : {
 			externalName: 'Pad',
-			startVisible: 15,
+			startVisible: 17,
 			endVisible: 21
 		},
 		'ed_pole' : {
