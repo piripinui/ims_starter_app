@@ -30,9 +30,9 @@ function handleRequest(req, res) {
 
 	var myRequest = request(options);
 
-	myRequest.on('response', function (response) {
+	myRequest.on('response', function (response, req) {
 		if (response.statusCode != 200) {
-			console.log("Error: " + response.statusCode);
+			console.log("Error: " + response.statusCode + " for " + req.url);
 		} else {
 			myRequest.pipe(res);
 		}

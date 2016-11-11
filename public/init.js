@@ -373,6 +373,7 @@ function init() {
 									//console.log("Collection call succeeded for " + url + " (" + features.length + " features)");
 
 									aLayer.getSource().addFeatures(features);
+									//console.log("Layer " + aLayer.layerName + " has " + aLayer.getSource().getFeatures().length + " features.");
 								}
 							})
 						}
