@@ -84,7 +84,7 @@ function init() {
 			  stroke: new ol.style.Stroke({color: 'black', width: 2}),
 			  points: 4,
 			  radius: 10,
-			  rotation: 0,
+			  rotation: Math.PI / 4,
 			  angle: 0
 			})
 		}),
