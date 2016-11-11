@@ -19,19 +19,9 @@ function init() {
 
 	// Define a set of styles to use when the features are rendered on the map.
 	var styles = {
-		ed_pole : new ol.style.Style({
-			image : new ol.style.Circle({
-				radius : 5,
-				fill : new ol.style.Fill({
-					color : '#00ff00',
-					opacity : 0.6
-				}),
-				stroke : new ol.style.Stroke({
-					color : 'black',
-					opacity : 0.4
-				})
-			})
-		}),
+		// Pole styles are defined as a style function in the layer setup below. The other asset classes have a 
+		// fixed style (defined here) unless a pole alarm is raised, in which case a style function is defined
+		// in the layer setup below.
 		ed_oh_transformer : new ol.style.Style({
 			image : new ol.style.RegularShape({
 			  fill: new ol.style.Fill({color: 'red'}),
