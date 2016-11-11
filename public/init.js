@@ -68,6 +68,16 @@ function init() {
 				})
 			})
 		}),
+		ed_manhole : new ol.style.Style({
+			image: new ol.style.RegularShape({
+			  fill: new ol.style.Fill({color: 'blue'}),
+			  stroke: new ol.style.Stroke({color: 'black', width: 2}),
+			  points: 4,
+			  radius: 5,
+			  rotation: 0,
+			  angle: 0
+			})
+		}),
 		ed_light : new ol.style.Style({
 			image : new ol.style.Circle({
 				radius : 2,
@@ -373,7 +383,7 @@ function init() {
 									//console.log("Collection call succeeded for " + url + " (" + features.length + " features)");
 
 									aLayer.getSource().addFeatures(features);
-									//console.log("Layer " + aLayer.layerName + " has " + aLayer.getSource().getFeatures().length + " features.");
+									console.log("Layer " + aLayer.layerName + " has " + aLayer.getSource().getFeatures().length + " features.");
 								}
 							})
 						}
@@ -420,6 +430,11 @@ function init() {
 		},
 		'ed_handhole' : {
 			externalName: 'Handhole',
+			startVisible: 17,
+			endVisible: 21
+		},
+		'ed_manhole' : {
+			externalName: 'Manhole',
 			startVisible: 17,
 			endVisible: 21
 		},

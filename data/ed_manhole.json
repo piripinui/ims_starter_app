@@ -1,0 +1,671 @@
+{
+"type":"FeatureCollection",
+"features":[
+{
+"type":"Feature",
+"id":100030,"geometry":{
+"type":"Point","coordinates":[-76.1802085112702,42.5993761190771]},
+"properties":{
+"id":"100030","Status":"Existing","Usage":"unset","Number":"14","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100030","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100031,"geometry":{
+"type":"Point","coordinates":[-76.1803279872030,42.6013389512067]},
+"properties":{
+"id":"100031","Status":"Existing","Usage":"unset","Number":"54","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100031","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100032,"geometry":{
+"type":"Point","coordinates":[-76.1812814590455,42.6011681227914]},
+"properties":{
+"id":"100032","Status":"Existing","Usage":"unset","Number":"64","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100032","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100033,"geometry":{
+"type":"Point","coordinates":[-76.1803508044112,42.6018877430659]},
+"properties":{
+"id":"100033","Status":"Existing","Usage":"unset","Number":"55","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100033","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100034,"geometry":{
+"type":"Point","coordinates":[-76.1798149593442,42.6013346358582]},
+"properties":{
+"id":"100034","Status":"Existing","Usage":"unset","Number":"51","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100034","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100035,"geometry":{
+"type":"Point","coordinates":[-76.1786610733617,42.5993164471008]},
+"properties":{
+"id":"100035","Status":"Existing","Usage":"unset","Number":"47","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100035","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100036,"geometry":{
+"type":"Point","coordinates":[-76.1787166790778,42.5994245560306]},
+"properties":{
+"id":"100036","Status":"Existing","Usage":"unset","Number":"76","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100036","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100037,"geometry":{
+"type":"Point","coordinates":[-76.1805501405727,42.6001653931246]},
+"properties":{
+"id":"100037","Status":"Existing","Usage":"unset","Number":"9","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100037","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100038,"geometry":{
+"type":"Point","coordinates":[-76.1806304499591,42.6028409794293]},
+"properties":{
+"id":"100038","Status":"Existing","Usage":"unset","Number":"58","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100038","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100039,"geometry":{
+"type":"Point","coordinates":[-76.1772313147555,42.6017643841893]},
+"properties":{
+"id":"100039","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100039","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100040,"geometry":{
+"type":"Point","coordinates":[-76.1803418212583,42.5981188338423]},
+"properties":{
+"id":"100040","Status":"Existing","Usage":"unset","Number":"72","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100040","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100041,"geometry":{
+"type":"Point","coordinates":[-76.1805388218001,42.5999809469731]},
+"properties":{
+"id":"100041","Status":"Existing","Usage":"unset","Number":"67","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100041","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100042,"geometry":{
+"type":"Point","coordinates":[-76.1812521739672,42.6003058666217]},
+"properties":{
+"id":"100042","Status":"Existing","Usage":"unset","Number":"2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100042","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100043,"geometry":{
+"type":"Point","coordinates":[-76.1803384974918,42.6001219415390]},
+"properties":{
+"id":"100043","Status":"Existing","Usage":"unset","Number":"44","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100043","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100044,"geometry":{
+"type":"Point","coordinates":[-76.1783065083191,42.5993272356776]},
+"properties":{
+"id":"100044","Status":"Existing","Usage":"unset","Number":"39","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100044","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100045,"geometry":{
+"type":"Point","coordinates":[-76.1134370955277,42.7960390867943]},
+"properties":{
+"id":"100045","Status":"Existing","Usage":"unset","Number":"3","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100045","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100046,"geometry":{
+"type":"Point","coordinates":[-76.1137745027484,42.7975604775727]},
+"properties":{
+"id":"100046","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100046","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100047,"geometry":{
+"type":"Point","coordinates":[-76.1959863412574,42.5966303548926]},
+"properties":{
+"id":"100047","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100047","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100048,"geometry":{
+"type":"Point","coordinates":[-76.1802194707166,42.5983211403630]},
+"properties":{
+"id":"100048","Status":"Existing","Usage":"unset","Number":"34","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100048","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100049,"geometry":{
+"type":"Point","coordinates":[-76.1697277770188,42.6083828535889]},
+"properties":{
+"id":"100049","Status":"Existing","Usage":"unset","Number":"3","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100049","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100050,"geometry":{
+"type":"Point","coordinates":[-76.1802348319080,42.5992654059573]},
+"properties":{
+"id":"100050","Status":"Existing","Usage":"unset","Number":"36","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100050","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100053,"geometry":{
+"type":"Point","coordinates":[-76.1802210876842,42.5978677916716]},
+"properties":{
+"id":"100053","Status":"Existing","Usage":"unset","Number":"33","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100053","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100054,"geometry":{
+"type":"Point","coordinates":[-76.2187942968266,42.5840870890149]},
+"properties":{
+"id":"100054","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100054","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100055,"geometry":{
+"type":"Point","coordinates":[-76.1796950342538,42.6001366734142]},
+"properties":{
+"id":"100055","Status":"Existing","Usage":"unset","Number":"45","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100055","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100056,"geometry":{
+"type":"Point","coordinates":[-76.1803605062162,42.6008494556335]},
+"properties":{
+"id":"100056","Status":"Existing","Usage":"unset","Number":"49","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100056","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100057,"geometry":{
+"type":"Point","coordinates":[-75.9870422485900,42.8299829415268]},
+"properties":{
+"id":"100057","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100057","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100058,"geometry":{
+"type":"Point","coordinates":[-76.1797383330505,42.5993920415189]},
+"properties":{
+"id":"100058","Status":"Existing","Usage":"unset","Number":"42","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100058","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100059,"geometry":{
+"type":"Point","coordinates":[-76.1527442282573,42.5960562376492]},
+"properties":{
+"id":"100059","Status":"Existing","Usage":"unset","Number":"1-1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100059","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100060,"geometry":{
+"type":"Point","coordinates":[-76.1790958579592,42.5994130234246]},
+"properties":{
+"id":"100060","Status":"Existing","Usage":"unset","Number":"40","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100060","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100061,"geometry":{
+"type":"Point","coordinates":[-76.1804682142188,42.6024668880053]},
+"properties":{
+"id":"100061","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100061","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100062,"geometry":{
+"type":"Point","coordinates":[-76.1814001264946,42.6000849630351]},
+"properties":{
+"id":"100062","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100062","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100063,"geometry":{
+"type":"Point","coordinates":[-76.2146799229938,42.5957472279478]},
+"properties":{
+"id":"100063","Status":"Existing","Usage":"unset","Number":"2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100063","Date Installed":"31/12/1959","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100064,"geometry":{
+"type":"Point","coordinates":[-76.1794374872618,42.6014879794293]},
+"properties":{
+"id":"100064","Status":"Existing","Usage":"unset","Number":"52","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100064","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100065,"geometry":{
+"type":"Point","coordinates":[-76.1915250380619,42.6115975254354]},
+"properties":{
+"id":"100065","Status":"Existing","Usage":"unset","Number":"2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100065","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100066,"geometry":{
+"type":"Point","coordinates":[-76.1803772148805,42.6011428258772]},
+"properties":{
+"id":"100066","Status":"Existing","Usage":"unset","Number":"50","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100066","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100067,"geometry":{
+"type":"Point","coordinates":[-76.1665211507806,42.6086342428100]},
+"properties":{
+"id":"100067","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100067","Date Installed":"unset","Material":"Concrete","Length":"25''","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100068,"geometry":{
+"type":"Point","coordinates":[-76.1136294248300,42.7969162322344]},
+"properties":{
+"id":"100068","Status":"Existing","Usage":"unset","Number":"2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100068","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100069,"geometry":{
+"type":"Point","coordinates":[-75.9870187127295,42.8297389095093]},
+"properties":{
+"id":"100069","Status":"Existing","Usage":"unset","Number":"2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100069","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100070,"geometry":{
+"type":"Point","coordinates":[-76.1786823634340,42.5986813328106]},
+"properties":{
+"id":"100070","Status":"Existing","Usage":"unset","Number":"13.1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100070","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100071,"geometry":{
+"type":"Point","coordinates":[-76.2079572009020,42.5985045477426]},
+"properties":{
+"id":"100071","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100071","Date Installed":"31/12/1957","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100072,"geometry":{
+"type":"Point","coordinates":[-76.1799282369015,42.6014773398777]},
+"properties":{
+"id":"100072","Status":"Existing","Usage":"unset","Number":"53","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100072","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100073,"geometry":{
+"type":"Point","coordinates":[-76.1810551734254,42.6008278787892]},
+"properties":{
+"id":"100073","Status":"Existing","Usage":"unset","Number":"3","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100073","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100074,"geometry":{
+"type":"Point","coordinates":[-76.2104501156470,42.5936049690261]},
+"properties":{
+"id":"100074","Status":"Existing","Usage":"unset","Number":"5H-1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100074","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100075,"geometry":{
+"type":"Point","coordinates":[-76.1817036672291,42.6011542838920]},
+"properties":{
+"id":"100075","Status":"Existing","Usage":"unset","Number":"63","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100075","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100076,"geometry":{
+"type":"Point","coordinates":[-76.1804945348566,42.5992494090924]},
+"properties":{
+"id":"100076","Status":"Existing","Usage":"unset","Number":"70","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100076","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100077,"geometry":{
+"type":"Point","coordinates":[-76.1805832884067,42.6008438010127]},
+"properties":{
+"id":"100077","Status":"Existing","Usage":"unset","Number":"65","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100077","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100078,"geometry":{
+"type":"Point","coordinates":[-76.1524600013014,42.5952261580171]},
+"properties":{
+"id":"100078","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100078","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100079,"geometry":{
+"type":"Point","coordinates":[-76.1838999582672,42.5991160769893]},
+"properties":{
+"id":"100079","Status":"Existing","Usage":"unset","Number":"4","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100079","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100080,"geometry":{
+"type":"Point","coordinates":[-76.1806966557955,42.6012844885189]},
+"properties":{
+"id":"100080","Status":"Existing","Usage":"unset","Number":"61","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100080","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100081,"geometry":{
+"type":"Point","coordinates":[-76.1775315317235,42.5936243151031]},
+"properties":{
+"id":"100081","Status":"Existing","Usage":"unset","Number":"32","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100081","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100082,"geometry":{
+"type":"Point","coordinates":[-76.1805416964090,42.6000288628255]},
+"properties":{
+"id":"100082","Status":"Existing","Usage":"unset","Number":"75","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100082","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100083,"geometry":{
+"type":"Point","coordinates":[-76.0958856318435,42.8874669409806]},
+"properties":{
+"id":"100083","Status":"Existing","Usage":"unset","Number":"79-2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100083","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100084,"geometry":{
+"type":"Point","coordinates":[-76.1906618469053,42.6304427927231]},
+"properties":{
+"id":"100084","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100084","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100085,"geometry":{
+"type":"Point","coordinates":[-76.1990595676759,42.5831004201328]},
+"properties":{
+"id":"100085","Status":"Existing","Usage":"unset","Number":"77","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100085","Date Installed":"31/12/1994","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100086,"geometry":{
+"type":"Point","coordinates":[-76.1804748617519,42.5988905578547]},
+"properties":{
+"id":"100086","Status":"Existing","Usage":"unset","Number":"71","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100086","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100087,"geometry":{
+"type":"Point","coordinates":[-76.1804039846760,42.6027910560082]},
+"properties":{
+"id":"100087","Status":"Existing","Usage":"unset","Number":"57","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100087","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100088,"geometry":{
+"type":"Point","coordinates":[-76.1690291572224,42.6084580695445]},
+"properties":{
+"id":"100088","Status":"Existing","Usage":"unset","Number":"2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100088","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100089,"geometry":{
+"type":"Point","coordinates":[-76.1806089802238,42.6025156955533]},
+"properties":{
+"id":"100089","Status":"Existing","Usage":"unset","Number":"2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100089","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100090,"geometry":{
+"type":"Point","coordinates":[-76.1733041498279,42.5871844805007]},
+"properties":{
+"id":"100090","Status":"Existing","Usage":"unset","Number":"2","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100090","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100092,"geometry":{
+"type":"Point","coordinates":[-76.1803734419563,42.6023267893852]},
+"properties":{
+"id":"100092","Status":"Existing","Usage":"unset","Number":"56","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100092","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100093,"geometry":{
+"type":"Point","coordinates":[-76.1676534771963,42.6086027726916]},
+"properties":{
+"id":"100093","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100093","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100094,"geometry":{
+"type":"Point","coordinates":[-76.1802993309454,42.5997128707715]},
+"properties":{
+"id":"100094","Status":"Existing","Usage":"unset","Number":"43","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100094","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100095,"geometry":{
+"type":"Point","coordinates":[-76.1802521693930,42.5988971798355]},
+"properties":{
+"id":"100095","Status":"Existing","Usage":"unset","Number":"35","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100095","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100096,"geometry":{
+"type":"Point","coordinates":[-76.1794254498370,42.5992927122281]},
+"properties":{
+"id":"100096","Status":"Existing","Usage":"unset","Number":"38","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100096","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100097,"geometry":{
+"type":"Point","coordinates":[-76.1823723731266,42.6437509953107]},
+"properties":{
+"id":"100097","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100097","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100098,"geometry":{
+"type":"Point","coordinates":[-76.2082181614921,42.5959293004719]},
+"properties":{
+"id":"100098","Status":"Existing","Usage":"unset","Number":"35-4","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100098","Date Installed":"30/09/1999","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100099,"geometry":{
+"type":"Point","coordinates":[-76.1805742154223,42.6006500556632]},
+"properties":{
+"id":"100099","Status":"Existing","Usage":"unset","Number":"66","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100099","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100100,"geometry":{
+"type":"Point","coordinates":[-76.1816660278186,42.6012653670494]},
+"properties":{
+"id":"100100","Status":"Existing","Usage":"unset","Number":"62","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100100","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100101,"geometry":{
+"type":"Point","coordinates":[-76.1921305923949,42.6115885235978]},
+"properties":{
+"id":"100101","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100101","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100102,"geometry":{
+"type":"Point","coordinates":[-76.2111762238911,42.5953746739976]},
+"properties":{
+"id":"100102","Status":"Existing","Usage":"unset","Number":"4-1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100102","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100103,"geometry":{
+"type":"Point","coordinates":[-76.1778053382221,42.5992218795983]},
+"properties":{
+"id":"100103","Status":"Existing","Usage":"unset","Number":"74","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100103","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100104,"geometry":{
+"type":"Point","coordinates":[-76.1531158612903,42.5958922460972]},
+"properties":{
+"id":"100104","Status":"Existing","Usage":"unset","Number":"1-1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100104","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100105,"geometry":{
+"type":"Point","coordinates":[-76.1805233707773,42.5997287187590]},
+"properties":{
+"id":"100105","Status":"Existing","Usage":"unset","Number":"66","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100105","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100106,"geometry":{
+"type":"Point","coordinates":[-76.1824127973143,42.6011382873125]},
+"properties":{
+"id":"100106","Status":"Existing","Usage":"unset","Number":"31","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100106","Date Installed":"31/12/2014","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100107,"geometry":{
+"type":"Point","coordinates":[-75.8877390634853,42.7554912619864]},
+"properties":{
+"id":"100107","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100107","Date Installed":"31/12/1995","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100108,"geometry":{
+"type":"Point","coordinates":[-76.1805765510421,42.6020063400651]},
+"properties":{
+"id":"100108","Status":"Existing","Usage":"unset","Number":"59","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100108","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100109,"geometry":{
+"type":"Point","coordinates":[-76.2101362442867,42.5943073037648]},
+"properties":{
+"id":"100109","Status":"Existing","Usage":"unset","Number":"4-1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100109","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100110,"geometry":{
+"type":"Point","coordinates":[-76.1798488258304,42.5992785010636]},
+"properties":{
+"id":"100110","Status":"Existing","Usage":"unset","Number":"37","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100110","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100111,"geometry":{
+"type":"Point","coordinates":[-76.1805586745679,42.6017169899385]},
+"properties":{
+"id":"100111","Status":"Existing","Usage":"unset","Number":"60","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100111","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100112,"geometry":{
+"type":"Point","coordinates":[-76.1531918587633,42.5958646413237]},
+"properties":{
+"id":"100112","Status":"Existing","Usage":"unset","Number":"1-1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100112","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100113,"geometry":{
+"type":"Point","coordinates":[-76.1113260546100,42.7971442992483]},
+"properties":{
+"id":"100113","Status":"Existing","Usage":"unset","Number":"P.B.1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100113","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100114,"geometry":{
+"type":"Point","coordinates":[-76.1803447856988,42.6005132283767]},
+"properties":{
+"id":"100114","Status":"Existing","Usage":"unset","Number":"48","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100114","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100115,"geometry":{
+"type":"Point","coordinates":[-76.1822314274585,42.6012464687844]},
+"properties":{
+"id":"100115","Status":"Existing","Usage":"unset","Number":"30","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100115","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100116,"geometry":{
+"type":"Point","coordinates":[-76.1101177307213,42.7985665321162]},
+"properties":{
+"id":"100116","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100116","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100117,"geometry":{
+"type":"Point","coordinates":[-76.1804164712584,42.5978639970165]},
+"properties":{
+"id":"100117","Status":"Existing","Usage":"unset","Number":"73","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100117","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100118,"geometry":{
+"type":"Point","coordinates":[-76.1722011084906,42.5871370797232]},
+"properties":{
+"id":"100118","Status":"Existing","Usage":"unset","Number":"1","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100118","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Pullbox","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100119,"geometry":{
+"type":"Point","coordinates":[-76.1793681373219,42.5994044669743]},
+"properties":{
+"id":"100119","Status":"Existing","Usage":"unset","Number":"41","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100119","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":100120,"geometry":{
+"type":"Point","coordinates":[-76.1811852494786,42.5992373556391]},
+"properties":{
+"id":"100120","Status":"Existing","Usage":"unset","Number":"69","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 100120","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"unset","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352158,"geometry":{
+"type":"Point","coordinates":[-76.1581601711052,42.6220070057663]},
+"properties":{
+"id":"352158","Status":"Existing","Usage":"Distribution","Number":"100","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352158","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Brick Irregular 8'' x 12''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352167,"geometry":{
+"type":"Point","coordinates":[-76.1574606529935,42.6220458363109]},
+"properties":{
+"id":"352167","Status":"Existing","Usage":"Distribution","Number":"101","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352167","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Brick Irregular 8'' x 12''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352176,"geometry":{
+"type":"Point","coordinates":[-76.1551347350598,42.6214791469879]},
+"properties":{
+"id":"352176","Status":"Existing","Usage":"Distribution","Number":"103","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352176","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Brick Irregular 8'' x 12'' Double Entry","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352186,"geometry":{
+"type":"Point","coordinates":[-76.1562111862648,42.6220458363109]},
+"properties":{
+"id":"352186","Status":"Existing","Usage":"Distribution","Number":"102","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352186","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Brick Irregular 8'' x 12''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352195,"geometry":{
+"type":"Point","coordinates":[-76.1544661189939,42.6214653107444]},
+"properties":{
+"id":"352195","Status":"Existing","Usage":"Distribution","Number":"104","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352195","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Brick Irregular 8'' x 12'' Double Entry","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352205,"geometry":{
+"type":"Point","coordinates":[-76.1534441955266,42.6213567779971]},
+"properties":{
+"id":"352205","Status":"Existing","Usage":"Distribution","Number":"105","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352205","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Multi Ceiling Double Entry","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352216,"geometry":{
+"type":"Point","coordinates":[-76.1530425587631,42.6209274811659]},
+"properties":{
+"id":"352216","Status":"Existing","Usage":"Distribution","Number":"106","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352216","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Multi Ceiling Double Entry","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352227,"geometry":{
+"type":"Point","coordinates":[-76.1517936310236,42.6210976081899]},
+"properties":{
+"id":"352227","Status":"Existing","Usage":"Distribution","Number":"107","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352227","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Multi Ceiling Double Entry","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352238,"geometry":{
+"type":"Point","coordinates":[-76.1514381676657,42.6207989372601]},
+"properties":{
+"id":"352238","Status":"Existing","Usage":"Distribution","Number":"108","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352238","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Brick Irregular 8'' x 12'' Double Entry","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352248,"geometry":{
+"type":"Point","coordinates":[-76.1522603956452,42.6204519125679]},
+"properties":{
+"id":"352248","Status":"Existing","Usage":"Distribution","Number":"109","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352248","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Round 4'' Diameter","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352253,"geometry":{
+"type":"Point","coordinates":[-76.1509421179658,42.6208767479995]},
+"properties":{
+"id":"352253","Status":"Existing","Usage":"Distribution","Number":"110","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352253","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Round 4'' Diameter","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352258,"geometry":{
+"type":"Point","coordinates":[-76.1525211765722,42.6218635855471]},
+"properties":{
+"id":"352258","Status":"Existing","Usage":"Distribution","Number":"111","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352258","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Precast 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352271,"geometry":{
+"type":"Point","coordinates":[-76.1509944897468,42.6220341573938]},
+"properties":{
+"id":"352271","Status":"Existing","Usage":"Distribution","Number":"112","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352271","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Precast 10'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352290,"geometry":{
+"type":"Point","coordinates":[-76.1511269014197,42.6215114315491]},
+"properties":{
+"id":"352290","Status":"Existing","Usage":"Distribution","Number":"113","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352290","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Precast 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352303,"geometry":{
+"type":"Point","coordinates":[-76.1512739556317,42.6215588913240]},
+"properties":{
+"id":"352303","Status":"Existing","Usage":"Distribution","Number":"114","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352303","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Precast 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352316,"geometry":{
+"type":"Point","coordinates":[-76.1524742845144,42.6217793037612]},
+"properties":{
+"id":"352316","Status":"Existing","Usage":"Distribution","Number":"115","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352316","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Precast 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352329,"geometry":{
+"type":"Point","coordinates":[-76.1537274343357,42.6209750899802]},
+"properties":{
+"id":"352329","Status":"Existing","Usage":"Distribution","Number":"116","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352329","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Brick Irregular 8'' x 12''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352338,"geometry":{
+"type":"Point","coordinates":[-76.1554600150242,42.6207899362053]},
+"properties":{
+"id":"352338","Status":"Existing","Usage":"Distribution","Number":"117","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352338","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Precast 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":352351,"geometry":{
+"type":"Point","coordinates":[-76.1547473815093,42.6208611263452]},
+"properties":{
+"id":"352351","Status":"Existing","Usage":"Distribution","Number":"118","Name":"unset","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"ST M 352351","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"unset","Access Type":"unset","Location Type":"unset","Depth":"unset","Width":"unset","Design":"Concrete Precast 8'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":1142314,"geometry":{
+"type":"Point","coordinates":[-76.0157135080186,42.7251024763714]},
+"properties":{
+"id":"1142314","Status":"Existing","Usage":"Distribution","Number":"901","Name":"MH 901","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"unset","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"Unknown","Access Type":"Manhole Cover","Location Type":"Unknown","Depth":"unset","Width":"unset","Design":"Concrete 10'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":1142323,"geometry":{
+"type":"Point","coordinates":[-76.0149281109657,42.7251234333293]},
+"properties":{
+"id":"1142323","Status":"Existing","Usage":"Distribution","Number":"902","Name":"MH 902","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"unset","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"Unknown","Access Type":"Manhole Cover","Location Type":"Unknown","Depth":"unset","Width":"unset","Design":"Concrete 10'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":1142332,"geometry":{
+"type":"Point","coordinates":[-76.0133269538033,42.7251359926389]},
+"properties":{
+"id":"1142332","Status":"Existing","Usage":"Distribution","Number":"904","Name":"MH 904","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"unset","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"Unknown","Access Type":"Manhole Cover","Location Type":"Unknown","Depth":"unset","Width":"unset","Design":"Concrete 10'' x 8''","Location Description":"unset"}
+},{
+"type":"Feature",
+"id":1142341,"geometry":{
+"type":"Point","coordinates":[-76.0141528648755,42.7251359926389]},
+"properties":{
+"id":"1142341","Status":"Existing","Usage":"Distribution","Number":"903","Name":"MH 903","Owner Type":"Company Owned","Owner Name":"Electric Utility","Asset ID":"unset","Date Installed":"unset","Material":"Concrete","Length":"unset","Remarks":"unset","Type":"Manhole","Pump":"No","Access Count":"Unknown","Access Type":"Manhole Cover","Location Type":"Unknown","Depth":"unset","Width":"unset","Design":"Concrete 10'' x 8''","Location Description":"unset"}
+}]
+}
