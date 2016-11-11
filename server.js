@@ -30,7 +30,7 @@ function handleRequest(req, res) {
 
 	var myRequest = request(options);
 
-	myRequest.on('response', function (response, req) {
+	myRequest.on('response', function (response) {
 		if (response.statusCode != 200) {
 			console.log("Error: " + response.statusCode);
 		} else {
