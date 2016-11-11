@@ -346,7 +346,7 @@ function init() {
 									})
 								}),
 								text: new ol.style.Text({
-									font: '12px Verdana',
+									font: '1opx Verdana',
 									offsetX: 0,
 									offsetY: 10,
 									text: feature.get('id'),
