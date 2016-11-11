@@ -433,7 +433,9 @@ function init() {
 
 	// Defines the layers to be added to the map. The keys are the name of the collections
 	// stored in the IMS instance, the values are the human-readable name of collection used
-	// in the popover when the user clicks on the map.
+	// in the popover when the user clicks on the map. The visibility of the layer is controlled
+	// by the values of startVisible and endVisible, which define the lowest and highest zoom
+	// level at which the layer can be seen.
 	
 	var layers = {
 		'ed_oh_secondary_conductor' : {
@@ -574,6 +576,7 @@ function init() {
 			.attr("height", pixel_size[1]);
 	}
 
+	// Actually create the SVG canvas for the "ripples".
 	if ($("#svg-div").length == 0)
 		createD3SvgCanvas();
 
@@ -636,6 +639,7 @@ function init() {
 	}
 	
 	function drawAlarm() {
+		// Helper function that draws an alarm "ripple".
 		if (alarm) {
 			createD3PointFromFeature(alarmFeature);
 			alarm = false;
@@ -664,6 +668,7 @@ function init() {
 	}
 	
 	function getPole(id) {
+		// Fetchs a pole with the specified id from the Intelligent Mapping service.
 		var url = '/v1/collections/' + layerName + '/text?q=' + id;
 		$.ajax({
 			url : url,
