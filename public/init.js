@@ -78,6 +78,16 @@ function init() {
 			  angle: 0
 			})
 		}),
+		ed_pad : new ol.style.Style({
+			image: new ol.style.RegularShape({
+			  fill: new ol.style.Fill({color: 'brown'}),
+			  stroke: new ol.style.Stroke({color: 'black', width: 2}),
+			  points: 4,
+			  radius: 10,
+			  rotation: 0,
+			  angle: 0
+			})
+		}),
 		ed_light : new ol.style.Style({
 			image : new ol.style.Circle({
 				radius : 2,
@@ -436,6 +446,11 @@ function init() {
 		'ed_manhole' : {
 			externalName: 'Manhole',
 			startVisible: 17,
+			endVisible: 21
+		},
+		'ed_pad' : {
+			externalName: 'Pad',
+			startVisible: 15,
 			endVisible: 21
 		},
 		'ed_pole' : {
