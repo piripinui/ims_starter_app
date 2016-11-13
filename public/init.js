@@ -14,7 +14,7 @@ limitations under the License. */
 
 function init() {
 	var defaultZoom = 13, svg,
-	alarmCircuitID, alarmFeature, alarmPole, alarmPrimaryConductor, alarmSecondaryConductor,
+	alarmCircuitID, alarmFeature, alarmPole, alarmPrimaryConductors, alarmSecondaryConductors,
 	ohSecondaryConductorLayer, alarmCircuitID, styleFunction, alarm = false, alarmFeature;;
 
 	// Define a set of styles to use when the features are rendered on the map.
@@ -205,9 +205,15 @@ function init() {
 					case 'ed_oh_secondary_conductor': {
 						lineColor = '#0000ff';
 						lineWidth = 10;
-						
-						if (typeof alarmSecondaryConductor != 'undefined') {
-							if (feature.getProperties().id == alarmSecondaryConductor) {
+						var alarmed = false;
+						if (typeof alarmSecondaryConductors != 'undefined') {
+							alarmSecondaryConductors.forEach(alarmSecondaryConductor => {
+								if (Number(feature.getProperties().id) == alarmSecondaryConductor.id) {
+									alarmed = true;
+								}
+							})
+							
+							if (alarmed) {
 								// Highlight the secondary conductor attached to the alarmed pole in red.
 								return new ol.style.Style({
 									fill : new ol.style.Fill({
@@ -244,9 +250,16 @@ function init() {
 					case 'ed_oh_primary_conductor': {
 						lineColor = '#6699ff';
 						lineWidth = 7;
+						var alarmed = false;
 						
-						if (typeof alarmPrimaryConductor != 'undefined') {
-							if (feature.getProperties().id == alarmPrimaryConductor) {
+						if (typeof alarmPrimaryConductors != 'undefined') {
+							alarmPrimaryConductors.forEach(alarmPrimaryConductor => {
+								if (Number(feature.getProperties().id) == alarmPrimaryConductor.id) {
+									alarmed = true;
+								}
+							})
+							
+							if (alarmed) {
 								// Highlight the primary conductor attached to the alarmed pole in orange.
 								return new ol.style.Style({
 									fill : new ol.style.Fill({
@@ -710,6 +723,9 @@ function init() {
 
 								aLayer.getSource().addFeatures(features);
 								
+								alarmSecondaryConductors = [];
+								alarmPrimaryConductors = [];
+								
 								// Find the OL feature & pan to it.
 								src.forEachFeature(function (aFeature) {
 									if (aFeature.getProperties().id == poleId) {
@@ -718,11 +734,21 @@ function init() {
 										alarm = true;
 										var id;
 
-										id = aFeature.getProperties()["OH Secondary Conductor"];
+										aFeature.getProperties().conductors.forEach(aConductor => {
+											alarmCircuitID = aConductor["Circuit "];
+											switch(aConductor.type) {
+												case "OH Secondary Conductor": {
+													alarmSecondaryConductors.push(aConductor);
+													break;
+												}
+												case "OH Primary Conductor": {
+													alarmPrimaryConductors.push(aConductor);
+													break;
+												}
+											}
+										})
+
 										alarmPole = poleId;
-										alarmCircuitID = aFeature.getProperties()["Circuit " + id];
-										alarmSecondaryConductor = aFeature.getProperties()["OH Secondary Conductor"];
-										alarmPrimaryConductor = aFeature.getProperties()["OH Primary Conductor"]
 
 										// Pan to the pole's location.
 										panAndZoom(aFeature);
