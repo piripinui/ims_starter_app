@@ -32,6 +32,11 @@ The starter app is intended to demonstrate how to use the Intelligent and Dynami
 
 The services have extensive documentation about how to use them - see [https://sw-intelligent-mapping.github.io/smallworld-mapping-services/index.htm](https://sw-intelligent-mapping.github.io/smallworld-mapping-services/index.htm).
 
+The documentation includes live examples of what you can do with both Intelligent Mapping and Dynamic Mapping with HTML and Javascript code snippets. 
+
+Openlayers (2D) examples - [https://developer-examples-app-prod.run.aws-usw02-pr.ice.predix.io/#devOpenLayersOverview](https://developer-examples-app-prod.run.aws-usw02-pr.ice.predix.io/#devOpenLayersOverview)
+Cesium (3D) examples - [https://developer-examples-app-prod.run.aws-usw02-pr.ice.predix.io/#/devCesiumOverview](https://developer-examples-app-prod.run.aws-usw02-pr.ice.predix.io/#/devCesiumOverview)
+
 ## Installation
 Clone this repo:
 
