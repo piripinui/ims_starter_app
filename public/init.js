@@ -127,6 +127,15 @@ function init() {
 				width : 2
 			})
 		}),
+		et_oh_transmission_conductor : new ol.style.Style({
+			fill : new ol.style.Fill({
+				color : 'rgba(255, 0, 0, 0.6)'
+			}),
+			stroke : new ol.style.Stroke({
+				color : '#3399ff',
+				width : 5
+			})
+		}),
 		sub_substation : new ol.style.Style({
 			fill : new ol.style.Fill({
 				color : 'rgba(0, 0, 255, 0.6)'
@@ -469,6 +478,11 @@ function init() {
 		'ed_ug_primary_conductor' : {
 			externalName: 'Underground Primary Conductor',
 			startVisible: 15,
+			endVisible: 21
+		},
+		'et_oh_transmission_conductor' : {
+			externalName: 'Overhead Transmission Conductor',
+			startVisible: 0,
 			endVisible: 21
 		},
 		'ed_handhole' : {
