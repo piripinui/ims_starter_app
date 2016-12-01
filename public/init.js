@@ -13,23 +13,50 @@ See the License for the specific language governing permissions and
 limitations under the License. */
 
 function init() {
-	var defaultZoom = 13, svg,
-	alarmCircuitID, alarmFeature, alarmPole, alarmPrimaryConductors, alarmSecondaryConductors,
-	ohSecondaryConductorLayer, alarmCircuitID, styleFunction, alarm = false, alarmFeature;;
+	var defaultZoom = 13,
+	svg,
+	alarmCircuitID,
+	alarmFeature,
+	alarmPole,
+	alarmPrimaryConductors,
+	alarmSecondaryConductors,
+	ohSecondaryConductorLayer,
+	alarmCircuitID,
+	styleFunction,
+	alarm = false,
+	alarmFeature; ;
 
 	// Define a set of styles to use when the features are rendered on the map.
 	var styles = {
-		// Pole styles are defined as a style function in the layer setup below. The other asset classes have a 
+		// Pole styles are defined as a style function in the layer setup below. The other asset classes have a
 		// fixed style (defined here) unless a pole alarm is raised, in which case a style function is defined
 		// in the layer setup below.
 		ed_oh_transformer : new ol.style.Style({
 			image : new ol.style.RegularShape({
-			  fill: new ol.style.Fill({color: 'red'}),
-			  stroke: new ol.style.Stroke({color: 'black', width: 2}),
-			  points: 3,
-			  radius: 5,
-			  rotation: 0,
-			  angle: 0
+				fill : new ol.style.Fill({
+					color : 'red'
+				}),
+				stroke : new ol.style.Stroke({
+					color : 'black',
+					width : 2
+				}),
+				points : 3,
+				radius : 5,
+				rotation : 0,
+				angle : 0
+			})
+		}),
+		et_tower : new ol.style.Style({
+			image : new ol.style.Circle({
+				radius : 10,
+				fill : new ol.style.Fill({
+					color : 'blue',
+					opacity : 0.6
+				}),
+				stroke : new ol.style.Stroke({
+					color : 'black',
+					opacity : 0.4
+				})
 			})
 		}),
 		ed_demand_point : new ol.style.Style({
@@ -59,23 +86,33 @@ function init() {
 			})
 		}),
 		ed_manhole : new ol.style.Style({
-			image: new ol.style.RegularShape({
-			  fill: new ol.style.Fill({color: 'blue'}),
-			  stroke: new ol.style.Stroke({color: 'black', width: 2}),
-			  points: 4,
-			  radius: 5,
-			  rotation: 0,
-			  angle: 0
+			image : new ol.style.RegularShape({
+				fill : new ol.style.Fill({
+					color : 'blue'
+				}),
+				stroke : new ol.style.Stroke({
+					color : 'black',
+					width : 2
+				}),
+				points : 4,
+				radius : 5,
+				rotation : 0,
+				angle : 0
 			})
 		}),
 		ed_pad : new ol.style.Style({
-			image: new ol.style.RegularShape({
-			  fill: new ol.style.Fill({color: 'brown'}),
-			  stroke: new ol.style.Stroke({color: 'black', width: 2}),
-			  points: 4,
-			  radius: 10,
-			  rotation: Math.PI / 4,
-			  angle: 0
+			image : new ol.style.RegularShape({
+				fill : new ol.style.Fill({
+					color : 'brown'
+				}),
+				stroke : new ol.style.Stroke({
+					color : 'black',
+					width : 2
+				}),
+				points : 4,
+				radius : 10,
+				rotation : Math.PI / 4,
+				angle : 0
 			})
 		}),
 		ed_light : new ol.style.Style({
@@ -159,10 +196,10 @@ function init() {
 			defaultDataProjection : 'EPSG:4326',
 			projection : 'EPSG:3857'
 		});
-	
+
 	function layerVisible(layername, zoom) {
 		var layerVisible = zoom >= layers[layername].startVisible && zoom <= layers[layername].endVisible;
-		
+
 		return layerVisible;
 	}
 
@@ -171,47 +208,49 @@ function init() {
 		// with data from the IMS instance.
 		if (layers.hasOwnProperty(layerProp)) {
 			// Create a new Openlayers 3 layer.
-			var lineColor, lineWidth, specialStyle = false;
+			var lineColor,
+			lineWidth,
+			specialStyle = false;
 			var layerName = layerProp;
-			
-			switch(layerProp) {
-				case 'ed_oh_secondary_conductor': {
+
+			switch (layerProp) {
+			case 'ed_oh_secondary_conductor': {
 					lineColor = '#0000ff';
 					lineWidth = 10;
 					specialStyle = true;
 					break;
 				}
-				case 'ed_oh_primary_conductor': {
+			case 'ed_oh_primary_conductor': {
 					lineColor = '#6699ff';
 					lineWidth = 7;
 					specialStyle = true;
 					break;
 				}
-				case 'ed_ug_primary_conductor': {
+			case 'ed_ug_primary_conductor': {
 					lineColor = '#6699ff';
 					lineWidth = 5;
 					specialStyle = true;
 					break;
 				}
-				case 'ed_ug_secondary_conductor': {
+			case 'ed_ug_secondary_conductor': {
 					lineColor = '#6699ff';
 					lineWidth = 5;
 					specialStyle = true;
 					break;
 				}
-				case 'ed_pole': {
+			case 'ed_pole': {
 					poleFillColor = '#ff6600';
 					specialStyle = true;
 					break;
 				}
-				default: {
+			default: {
 					specialStyle = false;
 				}
 			}
-			
-			styleFunction = function(feature, resolution) {
-				switch(layerName) {
-					case 'ed_oh_secondary_conductor': {
+
+			styleFunction = function (feature, resolution) {
+				switch (layerName) {
+				case 'ed_oh_secondary_conductor': {
 						lineColor = '#0000ff';
 						lineWidth = 10;
 						var alarmed = false;
@@ -221,7 +260,7 @@ function init() {
 									alarmed = true;
 								}
 							})
-							
+
 							if (alarmed) {
 								// Highlight the secondary conductor attached to the alarmed pole in red.
 								return new ol.style.Style({
@@ -235,7 +274,7 @@ function init() {
 								});
 							}
 						}
-					
+
 						if (typeof alarmCircuitID != 'undefined') {
 							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
 								// Highlight connected secondary conductors in blue.
@@ -250,24 +289,24 @@ function init() {
 								});
 							}
 						}
-						
+
 						// Default to returning the normal style for this asset class.
 						return styles[layerName];
 
 						break;
 					}
-					case 'ed_oh_primary_conductor': {
+				case 'ed_oh_primary_conductor': {
 						lineColor = '#6699ff';
 						lineWidth = 7;
 						var alarmed = false;
-						
+
 						if (typeof alarmPrimaryConductors != 'undefined') {
 							alarmPrimaryConductors.forEach(alarmPrimaryConductor => {
 								if (Number(feature.getProperties().id) == alarmPrimaryConductor.id) {
 									alarmed = true;
 								}
 							})
-							
+
 							if (alarmed) {
 								// Highlight the primary conductor attached to the alarmed pole in orange.
 								return new ol.style.Style({
@@ -281,7 +320,7 @@ function init() {
 								});
 							}
 						}
-						
+
 						if (typeof alarmCircuitID != 'undefined') {
 							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
 								// Highlight connected primary conductors in blue.
@@ -296,40 +335,16 @@ function init() {
 								});
 							}
 						}
-						
-						// Default to returning the normal style for this asset class.
-						return styles[layerName];
-						
-						break;
-					}
-					case 'ed_ug_primary_conductor': {
-						lineColor = '#6699ff';
-						lineWidth = 5;
-						
-						if (typeof alarmCircuitID != 'undefined') {
-							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
-								// Highlight connected underground primary conductors in blue.
-								return new ol.style.Style({
-									fill : new ol.style.Fill({
-										color : 'rgba(10, 255, 0, 0.6)'
-									}),
-									stroke : new ol.style.Stroke({
-										color : lineColor,
-										width : lineWidth
-									})
-								});
-							}
-						}
-						
+
 						// Default to returning the normal style for this asset class.
 						return styles[layerName];
 
 						break;
 					}
-					case 'ed_ug_secondary_conductor': {
+				case 'ed_ug_primary_conductor': {
 						lineColor = '#6699ff';
 						lineWidth = 5;
-						
+
 						if (typeof alarmCircuitID != 'undefined') {
 							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
 								// Highlight connected underground primary conductors in blue.
@@ -344,15 +359,39 @@ function init() {
 								});
 							}
 						}
-						
+
 						// Default to returning the normal style for this asset class.
 						return styles[layerName];
-						
+
 						break;
 					}
-					case 'ed_pole': {
+				case 'ed_ug_secondary_conductor': {
+						lineColor = '#6699ff';
+						lineWidth = 5;
+
+						if (typeof alarmCircuitID != 'undefined') {
+							if (feature.getProperties()["Circuit ID"] == alarmCircuitID) {
+								// Highlight connected underground primary conductors in blue.
+								return new ol.style.Style({
+									fill : new ol.style.Fill({
+										color : 'rgba(10, 255, 0, 0.6)'
+									}),
+									stroke : new ol.style.Stroke({
+										color : lineColor,
+										width : lineWidth
+									})
+								});
+							}
+						}
+
+						// Default to returning the normal style for this asset class.
+						return styles[layerName];
+
+						break;
+					}
+				case 'ed_pole': {
 						poleFillColor = '#ff0000';
-						
+
 						if (feature.getProperties().id == alarmPole) {
 							// Have got the pole for which the alarm was raised, return a red highlighted style.
 							return new ol.style.Style({
@@ -367,17 +406,21 @@ function init() {
 										opacity : 0.4
 									})
 								}),
-								text: new ol.style.Text({
-									font: '1opx Verdana',
-									offsetX: 0,
-									offsetY: 10,
-									text: feature.get('id'),
-									fill: new ol.style.Fill({color: 'red'}),
-									stroke: new ol.style.Stroke({color: 'white', width: 0.5})
+								text : new ol.style.Text({
+									font : '1opx Verdana',
+									offsetX : 0,
+									offsetY : 10,
+									text : feature.get('id'),
+									fill : new ol.style.Fill({
+										color : 'red'
+									}),
+									stroke : new ol.style.Stroke({
+										color : 'white',
+										width : 0.5
+									})
 								})
 							})
-						}
-						else {
+						} else {
 							// Return normal style.
 							return new ol.style.Style({
 								image : new ol.style.Circle({
@@ -391,35 +434,40 @@ function init() {
 										opacity : 0.4
 									})
 								}),
-								text: new ol.style.Text({
-									font: '10px Verdana',
-									offsetX: 0,
-									offsetY: 10,
-									text: feature.get('id'),
-									fill: new ol.style.Fill({color: 'black'}),
-									stroke: new ol.style.Stroke({color: 'white', width: 0.5})
+								text : new ol.style.Text({
+									font : '10px Verdana',
+									offsetX : 0,
+									offsetY : 10,
+									text : feature.get('id'),
+									fill : new ol.style.Fill({
+										color : 'black'
+									}),
+									stroke : new ol.style.Stroke({
+										color : 'white',
+										width : 0.5
+									})
 								})
 							})
 						}
 
 						break;
 					}
-					default: {
+				default: {
 						return styles[layerName];
 					}
 				}
 			}
-			
+
 			var aLayer = new ol.layer.Vector({
 					source : new ol.source.Vector({
 						format : new ol.format.GeoJSON(),
-						strategy: function(extent, resolution) {
+						strategy : function (extent, resolution) {
 							var coord1 = ol.proj.transform([extent[0], extent[1]], 'EPSG:3857', 'EPSG:4326');
 							var coord2 = ol.proj.transform([extent[2], extent[3]], 'EPSG:3857', 'EPSG:4326');
-							
+
 							return [[coord1[0], coord1[1], coord2[0], coord2[1]]];
 						},
-						loader: function(extent, resolution) {
+						loader : function (extent, resolution) {
 							var url = '/v1/collections/' + layerName + '/spatial-query/bbox-interacts/' + extent[0] + "," + extent[1] + "," + extent[2] + "," + extent[3];
 
 							$.ajax({
@@ -439,12 +487,12 @@ function init() {
 						}
 					}),
 					style : styleFunction,
-					visible: layerVisible(layerProp, defaultZoom)
+					visible : layerVisible(layerProp, defaultZoom)
 				});
 
 			aLayer.layerName = layers[layerProp].externalName;
 			aLayer.layerKey = layerProp;
-			
+
 			if (layerProp == 'ed_oh_secondary_conductor') {
 				ohSecondaryConductorLayer = aLayer;
 			}
@@ -458,72 +506,77 @@ function init() {
 	// in the popover when the user clicks on the map. The visibility of the layer is controlled
 	// by the values of startVisible and endVisible, which define the lowest and highest zoom
 	// level at which the layer can be seen.
-	
+
 	var layers = {
 		'ed_oh_secondary_conductor' : {
-			externalName: 'Overhead Secondary Conductor',
-			startVisible: 17,
-			endVisible: 21
+			externalName : 'Overhead Secondary Conductor',
+			startVisible : 17,
+			endVisible : 21
 		},
 		'ed_ug_secondary_conductor' : {
-			externalName: 'Underground Secondary Conductor',
-			startVisible: 17,
-			endVisible: 21
+			externalName : 'Underground Secondary Conductor',
+			startVisible : 17,
+			endVisible : 21
 		},
 		'ed_oh_primary_conductor' : {
-			externalName: 'Overhead Primary Conductor',
-			startVisible: 0,
-			endVisible: 21
+			externalName : 'Overhead Primary Conductor',
+			startVisible : 0,
+			endVisible : 21
 		},
 		'ed_ug_primary_conductor' : {
-			externalName: 'Underground Primary Conductor',
-			startVisible: 15,
-			endVisible: 21
+			externalName : 'Underground Primary Conductor',
+			startVisible : 15,
+			endVisible : 21
 		},
 		'et_oh_transmission_conductor' : {
-			externalName: 'Overhead Transmission Conductor',
-			startVisible: 0,
-			endVisible: 21
+			externalName : 'Overhead Transmission Conductor',
+			startVisible : 0,
+			endVisible : 21
 		},
 		'ed_handhole' : {
-			externalName: 'Handhole',
-			startVisible: 17,
-			endVisible: 21
+			externalName : 'Handhole',
+			startVisible : 17,
+			endVisible : 21
 		},
 		'ed_manhole' : {
-			externalName: 'Manhole',
-			startVisible: 17,
-			endVisible: 21
+			externalName : 'Manhole',
+			startVisible : 17,
+			endVisible : 21
 		},
 		'ed_pad' : {
-			externalName: 'Pad',
-			startVisible: 17,
-			endVisible: 21
+			externalName : 'Pad',
+			startVisible : 17,
+			endVisible : 21
 		},
 		'ed_pole' : {
-			externalName: 'Pole',
-			startVisible: 17,
-			endVisible: 21
+			externalName : 'Pole',
+			startVisible : 17,
+			endVisible : 21
+		},
+		'et_tower' : {
+			externalName : 'Tower',
+			startVisible : 17,
+			endVisible : 21
 		},
 		'sub_substation' : {
-			externalName: 'Substation',
-			startVisible: 15,
-			endVisible: 21
+			externalName : 'Substation',
+			startVisible : 15,
+			endVisible : 21
 		},
 		'ed_oh_transformer' : {
-			externalName: 'Overhead Transformer',
-			startVisible: 17,
-			endVisible: 21
+			externalName : 'Overhead Transformer',
+			startVisible : 17,
+			endVisible : 21
 		},
 		'ed_demand_point' : {
-			externalName: 'Demand Point',
-			startVisible: 18,
-			endVisible: 21
+			externalName : 'Demand Point',
+			startVisible : 18,
+			endVisible : 21
 		},
 		'ed_light' : {
-			externalName: 'Streetlight',
-			startVisible: 17,
-			endVisible: 21
+			externalName : 'Streetlight',
+			startVisible : 17,
+			endVisible : 21
 		}
 	}
 
@@ -586,8 +639,7 @@ function init() {
 				'content' : content + '<code>' + hdms + '</code>'
 			});
 			$(element).popover('show');
-		}
-		else {
+		} else {
 			$(element).popover('destroy');
 		}
 	});
@@ -654,17 +706,17 @@ function init() {
 		// Callback for moveend event listener.
 
 		var aView = evt.map.getView()
-		var zoom = aView.getZoom();
-		
+			var zoom = aView.getZoom();
+
 		mapLayers.forEach(aLayer => {
 			if (typeof aLayer.layerName != 'undefined') {
-				aLayer.setVisible(layerVisible(aLayer.layerKey, zoom));				
+				aLayer.setVisible(layerVisible(aLayer.layerKey, zoom));
 			}
 		})
-		
+
 		drawAlarm();
 	}
-	
+
 	function drawAlarm() {
 		// Helper function that draws an alarm "ripple".
 		if (alarm) {
@@ -693,7 +745,7 @@ function init() {
 			mapView.setCenter(feature.getGeometry().getCoordinates())
 		}
 	}
-	
+
 	function getPole(id) {
 		// Fetchs a pole with the specified id from the Intelligent Mapping service.
 		var url = '/v1/collections/' + layerName + '/text?q=' + id;
@@ -721,25 +773,25 @@ function init() {
 					// Find a pole with this pole id.
 					var poleId = JSON.parse(e.data).poleId;
 					var src = aLayer.getSource();
-					
+
 					// Make a request to Predix IMS for the Pole with this id.
 					var url = '/v1/collections/' + aLayer.layerKey + '/text?q=' + poleId;
 					$.ajax({
 						url : url,
 						type : 'GET',
-						success : function (data) {					
+						success : function (data) {
 							// Add GeoJSON feature to the pole layer.
 							if (data.features.length > 0) {
 								var features = geoFormatter.readFeatures(data, {
-											dataProjection : 'EPSG:4326',
-											featureProjection : 'EPSG:3857'
-										});
+										dataProjection : 'EPSG:4326',
+										featureProjection : 'EPSG:3857'
+									});
 
 								aLayer.getSource().addFeatures(features);
-								
+
 								alarmSecondaryConductors = [];
 								alarmPrimaryConductors = [];
-								
+
 								// Find the OL feature & pan to it.
 								src.forEachFeature(function (aFeature) {
 									if (aFeature.getProperties().id == poleId) {
@@ -750,12 +802,12 @@ function init() {
 
 										aFeature.getProperties().conductors.forEach(aConductor => {
 											alarmCircuitID = aConductor["Circuit "];
-											switch(aConductor.type) {
-												case "OH Secondary Conductor": {
+											switch (aConductor.type) {
+											case "OH Secondary Conductor": {
 													alarmSecondaryConductors.push(aConductor);
 													break;
 												}
-												case "OH Primary Conductor": {
+											case "OH Primary Conductor": {
 													alarmPrimaryConductors.push(aConductor);
 													break;
 												}
